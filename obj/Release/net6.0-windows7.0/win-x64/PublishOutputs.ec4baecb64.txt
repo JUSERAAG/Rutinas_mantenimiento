@@ -1,0 +1,8 @@
+C:\Users\dmramirez\OneDrive - Empresa\Escritorio\RUTINAS\Rutinas_mantenimiento.pdb
+C:\Users\dmramirez\OneDrive - Empresa\Escritorio\RUTINAS\D3DCompiler_47_cor3.dll
+C:\Users\dmramirez\OneDrive - Empresa\Escritorio\RUTINAS\PenImc_cor3.dll
+C:\Users\dmramirez\OneDrive - Empresa\Escritorio\RUTINAS\PresentationNative_cor3.dll
+C:\Users\dmramirez\OneDrive - Empresa\Escritorio\RUTINAS\vcruntime140_cor3.dll
+C:\Users\dmramirez\OneDrive - Empresa\Escritorio\RUTINAS\wpfgfx_cor3.dll
+C:\Users\dmramirez\OneDrive - Empresa\Escritorio\RUTINAS\sni.dll
+C:\Users\dmramirez\OneDrive - Empresa\Escritorio\RUTINAS\Rutinas_mantenimiento.exe
