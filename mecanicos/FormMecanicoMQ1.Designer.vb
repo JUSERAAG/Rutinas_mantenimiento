@@ -141,7 +141,7 @@ Partial Class FormMecanicoMQ1
         Me.Panel1.Controls.Add(Me.CheckBox2)
         Me.Panel1.Controls.Add(Me.CheckBox1)
         Me.Panel1.Enabled = False
-        Me.Panel1.Location = New System.Drawing.Point(10, 155)
+        Me.Panel1.Location = New System.Drawing.Point(9, 155)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(618, 582)
         Me.Panel1.TabIndex = 2
@@ -166,9 +166,9 @@ Partial Class FormMecanicoMQ1
         Me.CheckBox17.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox17.Location = New System.Drawing.Point(12, 511)
         Me.CheckBox17.Name = "CheckBox17"
-        Me.CheckBox17.Size = New System.Drawing.Size(467, 25)
+        Me.CheckBox17.Size = New System.Drawing.Size(534, 25)
         Me.CheckBox17.TabIndex = 88
-        Me.CheckBox17.Text = "Verif. que el fieltro no esté rozando con ningun regueras o tubo"
+        Me.CheckBox17.Text = "Verif. que el fieltro no esté rozando con ningun regueras o tubo maquina"
         Me.CheckBox17.UseVisualStyleBackColor = True
         '
         'CheckBox16
@@ -388,7 +388,7 @@ Partial Class FormMecanicoMQ1
         Me.Panel2.Controls.Add(Me.CheckBox20)
         Me.Panel2.Controls.Add(Me.CheckBox19)
         Me.Panel2.Enabled = False
-        Me.Panel2.Location = New System.Drawing.Point(636, 155)
+        Me.Panel2.Location = New System.Drawing.Point(638, 154)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(629, 265)
         Me.Panel2.TabIndex = 6
