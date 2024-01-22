@@ -45,12 +45,6 @@ Partial Class FormMecanicoMQ2
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.CheckBox19 = New System.Windows.Forms.CheckBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.CheckBox32 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox31 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox30 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox29 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox28 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox27 = New System.Windows.Forms.CheckBox()
         Me.CheckBox26 = New System.Windows.Forms.CheckBox()
         Me.CheckBox25 = New System.Windows.Forms.CheckBox()
         Me.CheckBox24 = New System.Windows.Forms.CheckBox()
@@ -58,17 +52,11 @@ Partial Class FormMecanicoMQ2
         Me.CheckBox22 = New System.Windows.Forms.CheckBox()
         Me.CheckBox21 = New System.Windows.Forms.CheckBox()
         Me.CheckBox20 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox47 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox48 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox49 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox50 = New System.Windows.Forms.CheckBox()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.CheckBox46 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox45 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox44 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox43 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox42 = New System.Windows.Forms.CheckBox()
         Me.CheckBox41 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox42 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox43 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox44 = New System.Windows.Forms.CheckBox()
+        Me.Panel3 = New System.Windows.Forms.Panel()
         Me.CheckBox40 = New System.Windows.Forms.CheckBox()
         Me.CheckBox39 = New System.Windows.Forms.CheckBox()
         Me.CheckBox38 = New System.Windows.Forms.CheckBox()
@@ -77,6 +65,12 @@ Partial Class FormMecanicoMQ2
         Me.CheckBox35 = New System.Windows.Forms.CheckBox()
         Me.CheckBox34 = New System.Windows.Forms.CheckBox()
         Me.CheckBox33 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox32 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox31 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox30 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox29 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox28 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox27 = New System.Windows.Forms.CheckBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label34 = New System.Windows.Forms.Label()
@@ -90,13 +84,13 @@ Partial Class FormMecanicoMQ2
         Me.Label3 = New System.Windows.Forms.Label()
         Me.ComboBox100 = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.CheckBox51 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox52 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox53 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox55 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox56 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox45 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox46 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox47 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox49 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox50 = New System.Windows.Forms.CheckBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.CheckBox54 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox48 = New System.Windows.Forms.CheckBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -374,12 +368,6 @@ Partial Class FormMecanicoMQ2
         '
         Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel2.Controls.Add(Me.CheckBox32)
-        Me.Panel2.Controls.Add(Me.CheckBox31)
-        Me.Panel2.Controls.Add(Me.CheckBox30)
-        Me.Panel2.Controls.Add(Me.CheckBox29)
-        Me.Panel2.Controls.Add(Me.CheckBox28)
-        Me.Panel2.Controls.Add(Me.CheckBox27)
         Me.Panel2.Controls.Add(Me.CheckBox26)
         Me.Panel2.Controls.Add(Me.CheckBox25)
         Me.Panel2.Controls.Add(Me.CheckBox24)
@@ -388,23 +376,278 @@ Partial Class FormMecanicoMQ2
         Me.Panel2.Controls.Add(Me.CheckBox21)
         Me.Panel2.Controls.Add(Me.CheckBox20)
         Me.Panel2.Controls.Add(Me.CheckBox19)
+        Me.Panel2.Controls.Add(Me.CheckBox30)
+        Me.Panel2.Controls.Add(Me.CheckBox27)
+        Me.Panel2.Controls.Add(Me.CheckBox28)
+        Me.Panel2.Controls.Add(Me.CheckBox29)
+        Me.Panel2.Controls.Add(Me.CheckBox31)
         Me.Panel2.Enabled = False
         Me.Panel2.Location = New System.Drawing.Point(645, 155)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(628, 465)
+        Me.Panel2.Size = New System.Drawing.Size(628, 430)
         Me.Panel2.TabIndex = 6
         Me.Panel2.Visible = False
+        '
+        'CheckBox26
+        '
+        Me.CheckBox26.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox26.AutoSize = True
+        Me.CheckBox26.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox26.Location = New System.Drawing.Point(12, 231)
+        Me.CheckBox26.Name = "CheckBox26"
+        Me.CheckBox26.Size = New System.Drawing.Size(179, 25)
+        Me.CheckBox26.TabIndex = 103
+        Me.CheckBox26.Text = "Presion formato (Bar)"
+        Me.CheckBox26.UseVisualStyleBackColor = True
+        '
+        'CheckBox25
+        '
+        Me.CheckBox25.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox25.AutoSize = True
+        Me.CheckBox25.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox25.Location = New System.Drawing.Point(12, 200)
+        Me.CheckBox25.Name = "CheckBox25"
+        Me.CheckBox25.Size = New System.Drawing.Size(477, 25)
+        Me.CheckBox25.TabIndex = 102
+        Me.CheckBox25.Text = "Verif. presión de la central hidraulica de la hidrotransmision (psi)"
+        Me.CheckBox25.UseVisualStyleBackColor = True
+        '
+        'CheckBox24
+        '
+        Me.CheckBox24.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox24.AutoSize = True
+        Me.CheckBox24.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox24.Location = New System.Drawing.Point(12, 169)
+        Me.CheckBox24.Name = "CheckBox24"
+        Me.CheckBox24.Size = New System.Drawing.Size(466, 25)
+        Me.CheckBox24.TabIndex = 101
+        Me.CheckBox24.Text = "Verif. temper. de la central hidraulica de la hidrotransmision °C"
+        Me.CheckBox24.UseVisualStyleBackColor = True
+        '
+        'CheckBox23
+        '
+        Me.CheckBox23.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox23.AutoSize = True
+        Me.CheckBox23.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox23.Location = New System.Drawing.Point(12, 138)
+        Me.CheckBox23.Name = "CheckBox23"
+        Me.CheckBox23.Size = New System.Drawing.Size(305, 25)
+        Me.CheckBox23.TabIndex = 100
+        Me.CheckBox23.Text = "Registrar velocidad de formato (m/min)"
+        Me.CheckBox23.UseVisualStyleBackColor = True
+        '
+        'CheckBox22
+        '
+        Me.CheckBox22.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox22.AutoSize = True
+        Me.CheckBox22.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox22.Location = New System.Drawing.Point(12, 107)
+        Me.CheckBox22.Name = "CheckBox22"
+        Me.CheckBox22.Size = New System.Drawing.Size(497, 25)
+        Me.CheckBox22.TabIndex = 99
+        Me.CheckBox22.Text = "Verif. el correcto funcion. de bomba de drenaje (que esté drenando)"
+        Me.CheckBox22.UseVisualStyleBackColor = True
+        '
+        'CheckBox21
+        '
+        Me.CheckBox21.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox21.AutoSize = True
+        Me.CheckBox21.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox21.Location = New System.Drawing.Point(12, 76)
+        Me.CheckBox21.Name = "CheckBox21"
+        Me.CheckBox21.Size = New System.Drawing.Size(391, 25)
+        Me.CheckBox21.TabIndex = 94
+        Me.CheckBox21.Text = "Verificar presion de bomba de vacio volumax (inHg)"
+        Me.CheckBox21.UseVisualStyleBackColor = True
+        '
+        'CheckBox20
+        '
+        Me.CheckBox20.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox20.AutoSize = True
+        Me.CheckBox20.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox20.Location = New System.Drawing.Point(12, 45)
+        Me.CheckBox20.Name = "CheckBox20"
+        Me.CheckBox20.Size = New System.Drawing.Size(390, 25)
+        Me.CheckBox20.TabIndex = 91
+        Me.CheckBox20.Text = "Verificar presion de bomba de vacio robuschi (inHg)"
+        Me.CheckBox20.UseVisualStyleBackColor = True
+        '
+        'CheckBox41
+        '
+        Me.CheckBox41.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox41.AutoSize = True
+        Me.CheckBox41.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox41.Location = New System.Drawing.Point(16, 298)
+        Me.CheckBox41.Name = "CheckBox41"
+        Me.CheckBox41.Size = New System.Drawing.Size(508, 25)
+        Me.CheckBox41.TabIndex = 145
+        Me.CheckBox41.Text = "Inspeccionar correcto funcionamiento de manguera molino desechos"
+        Me.CheckBox41.UseVisualStyleBackColor = True
+        '
+        'CheckBox42
+        '
+        Me.CheckBox42.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox42.AutoSize = True
+        Me.CheckBox42.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox42.Location = New System.Drawing.Point(16, 329)
+        Me.CheckBox42.Name = "CheckBox42"
+        Me.CheckBox42.Size = New System.Drawing.Size(491, 25)
+        Me.CheckBox42.TabIndex = 147
+        Me.CheckBox42.Text = "Inspec. molino de desechos-corregir anomalias (anillos, empaques)"
+        Me.CheckBox42.UseVisualStyleBackColor = True
+        '
+        'CheckBox43
+        '
+        Me.CheckBox43.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox43.AutoSize = True
+        Me.CheckBox43.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox43.Location = New System.Drawing.Point(16, 360)
+        Me.CheckBox43.Name = "CheckBox43"
+        Me.CheckBox43.Size = New System.Drawing.Size(515, 25)
+        Me.CheckBox43.TabIndex = 149
+        Me.CheckBox43.Text = "Inspeccionar estoperos de bombas de desechos corregir si es necesario"
+        Me.CheckBox43.UseVisualStyleBackColor = True
+        '
+        'CheckBox44
+        '
+        Me.CheckBox44.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox44.AutoSize = True
+        Me.CheckBox44.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox44.Location = New System.Drawing.Point(14, 391)
+        Me.CheckBox44.Name = "CheckBox44"
+        Me.CheckBox44.Size = New System.Drawing.Size(508, 25)
+        Me.CheckBox44.TabIndex = 151
+        Me.CheckBox44.Text = "Inspeccionar correcto funcionamiento de manguera molino desechos"
+        Me.CheckBox44.UseVisualStyleBackColor = True
+        '
+        'Panel3
+        '
+        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel3.Controls.Add(Me.CheckBox40)
+        Me.Panel3.Controls.Add(Me.CheckBox39)
+        Me.Panel3.Controls.Add(Me.CheckBox38)
+        Me.Panel3.Controls.Add(Me.CheckBox44)
+        Me.Panel3.Controls.Add(Me.CheckBox37)
+        Me.Panel3.Controls.Add(Me.CheckBox36)
+        Me.Panel3.Controls.Add(Me.CheckBox35)
+        Me.Panel3.Controls.Add(Me.CheckBox41)
+        Me.Panel3.Controls.Add(Me.CheckBox34)
+        Me.Panel3.Controls.Add(Me.CheckBox42)
+        Me.Panel3.Controls.Add(Me.CheckBox33)
+        Me.Panel3.Controls.Add(Me.CheckBox43)
+        Me.Panel3.Controls.Add(Me.CheckBox32)
+        Me.Panel3.Location = New System.Drawing.Point(6, 155)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(614, 430)
+        Me.Panel3.TabIndex = 51
+        Me.Panel3.Visible = False
+        '
+        'CheckBox40
+        '
+        Me.CheckBox40.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox40.AutoSize = True
+        Me.CheckBox40.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox40.Location = New System.Drawing.Point(16, 263)
+        Me.CheckBox40.Name = "CheckBox40"
+        Me.CheckBox40.Size = New System.Drawing.Size(252, 25)
+        Me.CheckBox40.TabIndex = 143
+        Me.CheckBox40.Text = "Inspeccionar banda de desechos"
+        Me.CheckBox40.UseVisualStyleBackColor = True
+        '
+        'CheckBox39
+        '
+        Me.CheckBox39.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox39.AutoSize = True
+        Me.CheckBox39.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox39.Location = New System.Drawing.Point(16, 235)
+        Me.CheckBox39.Name = "CheckBox39"
+        Me.CheckBox39.Size = New System.Drawing.Size(290, 25)
+        Me.CheckBox39.TabIndex = 141
+        Me.CheckBox39.Text = "Inspeccionar oruga de las mesas atlas"
+        Me.CheckBox39.UseVisualStyleBackColor = True
+        '
+        'CheckBox38
+        '
+        Me.CheckBox38.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox38.AutoSize = True
+        Me.CheckBox38.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox38.Location = New System.Drawing.Point(16, 204)
+        Me.CheckBox38.Name = "CheckBox38"
+        Me.CheckBox38.Size = New System.Drawing.Size(280, 25)
+        Me.CheckBox38.TabIndex = 139
+        Me.CheckBox38.Text = "Inspeccionar oruga del carro viajero"
+        Me.CheckBox38.UseVisualStyleBackColor = True
+        '
+        'CheckBox37
+        '
+        Me.CheckBox37.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox37.AutoSize = True
+        Me.CheckBox37.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox37.Location = New System.Drawing.Point(16, 173)
+        Me.CheckBox37.Name = "CheckBox37"
+        Me.CheckBox37.Size = New System.Drawing.Size(270, 25)
+        Me.CheckBox37.TabIndex = 137
+        Me.CheckBox37.Text = "Registrar ciclo de onduladora (seg)"
+        Me.CheckBox37.UseVisualStyleBackColor = True
+        '
+        'CheckBox36
+        '
+        Me.CheckBox36.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox36.AutoSize = True
+        Me.CheckBox36.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox36.Location = New System.Drawing.Point(16, 142)
+        Me.CheckBox36.Name = "CheckBox36"
+        Me.CheckBox36.Size = New System.Drawing.Size(177, 25)
+        Me.CheckBox36.TabIndex = 135
+        Me.CheckBox36.Text = "Registrar cuadratura "
+        Me.CheckBox36.UseVisualStyleBackColor = True
+        '
+        'CheckBox35
+        '
+        Me.CheckBox35.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox35.AutoSize = True
+        Me.CheckBox35.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox35.Location = New System.Drawing.Point(16, 111)
+        Me.CheckBox35.Name = "CheckBox35"
+        Me.CheckBox35.Size = New System.Drawing.Size(462, 25)
+        Me.CheckBox35.TabIndex = 133
+        Me.CheckBox35.Text = "Verificar temperatura de central hidraulica de mesas atlas (°C)"
+        Me.CheckBox35.UseVisualStyleBackColor = True
+        '
+        'CheckBox34
+        '
+        Me.CheckBox34.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox34.AutoSize = True
+        Me.CheckBox34.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox34.Location = New System.Drawing.Point(16, 80)
+        Me.CheckBox34.Name = "CheckBox34"
+        Me.CheckBox34.Size = New System.Drawing.Size(513, 25)
+        Me.CheckBox34.TabIndex = 131
+        Me.CheckBox34.Text = "Verificar estado de los cables de alimentaciòn de los carros apiladores"
+        Me.CheckBox34.UseVisualStyleBackColor = True
+        '
+        'CheckBox33
+        '
+        Me.CheckBox33.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox33.AutoSize = True
+        Me.CheckBox33.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox33.Location = New System.Drawing.Point(16, 49)
+        Me.CheckBox33.Name = "CheckBox33"
+        Me.CheckBox33.Size = New System.Drawing.Size(292, 25)
+        Me.CheckBox33.TabIndex = 129
+        Me.CheckBox33.Text = "Presion hidrualica de mesas atlas (psi)"
+        Me.CheckBox33.UseVisualStyleBackColor = True
         '
         'CheckBox32
         '
         Me.CheckBox32.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
         Me.CheckBox32.AutoSize = True
         Me.CheckBox32.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox32.Location = New System.Drawing.Point(12, 418)
+        Me.CheckBox32.Location = New System.Drawing.Point(16, 15)
         Me.CheckBox32.Name = "CheckBox32"
-        Me.CheckBox32.Size = New System.Drawing.Size(179, 25)
-        Me.CheckBox32.TabIndex = 103
-        Me.CheckBox32.Text = "Presion formato (Bar)"
+        Me.CheckBox32.Size = New System.Drawing.Size(377, 25)
+        Me.CheckBox32.TabIndex = 127
+        Me.CheckBox32.Text = "Presion hidrualica de cilindros de aspiradoras (psi)"
         Me.CheckBox32.UseVisualStyleBackColor = True
         '
         'CheckBox31
@@ -414,9 +657,9 @@ Partial Class FormMecanicoMQ2
         Me.CheckBox31.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox31.Location = New System.Drawing.Point(12, 387)
         Me.CheckBox31.Name = "CheckBox31"
-        Me.CheckBox31.Size = New System.Drawing.Size(477, 25)
-        Me.CheckBox31.TabIndex = 102
-        Me.CheckBox31.Text = "Verif. presión de la central hidraulica de la hidrotransmision (psi)"
+        Me.CheckBox31.Size = New System.Drawing.Size(516, 25)
+        Me.CheckBox31.TabIndex = 125
+        Me.CheckBox31.Text = "Verif. temp. de centr. hidraul. de carro viajero y cilindro de aspira/s(°C)"
         Me.CheckBox31.UseVisualStyleBackColor = True
         '
         'CheckBox30
@@ -426,9 +669,9 @@ Partial Class FormMecanicoMQ2
         Me.CheckBox30.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox30.Location = New System.Drawing.Point(12, 356)
         Me.CheckBox30.Name = "CheckBox30"
-        Me.CheckBox30.Size = New System.Drawing.Size(466, 25)
-        Me.CheckBox30.TabIndex = 101
-        Me.CheckBox30.Text = "Verif. temper. de la central hidraulica de la hidrotransmision °C"
+        Me.CheckBox30.Size = New System.Drawing.Size(301, 25)
+        Me.CheckBox30.TabIndex = 123
+        Me.CheckBox30.Text = "Presion hidraulica de carro viajero (psi)"
         Me.CheckBox30.UseVisualStyleBackColor = True
         '
         'CheckBox29
@@ -438,9 +681,9 @@ Partial Class FormMecanicoMQ2
         Me.CheckBox29.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox29.Location = New System.Drawing.Point(12, 325)
         Me.CheckBox29.Name = "CheckBox29"
-        Me.CheckBox29.Size = New System.Drawing.Size(305, 25)
-        Me.CheckBox29.TabIndex = 100
-        Me.CheckBox29.Text = "Registrar velocidad de formato (m/min)"
+        Me.CheckBox29.Size = New System.Drawing.Size(480, 25)
+        Me.CheckBox29.TabIndex = 121
+        Me.CheckBox29.Text = "Verificar temp. de central hidraulica de sierras longitudinales (°C)"
         Me.CheckBox29.UseVisualStyleBackColor = True
         '
         'CheckBox28
@@ -450,9 +693,9 @@ Partial Class FormMecanicoMQ2
         Me.CheckBox28.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox28.Location = New System.Drawing.Point(12, 294)
         Me.CheckBox28.Name = "CheckBox28"
-        Me.CheckBox28.Size = New System.Drawing.Size(497, 25)
-        Me.CheckBox28.TabIndex = 99
-        Me.CheckBox28.Text = "Verif. el correcto funcion. de bomba de drenaje (que esté drenando)"
+        Me.CheckBox28.Size = New System.Drawing.Size(432, 25)
+        Me.CheckBox28.TabIndex = 119
+        Me.CheckBox28.Text = "Presion hidraulica de puente de sierras longitudinales (psi)"
         Me.CheckBox28.UseVisualStyleBackColor = True
         '
         'CheckBox27
@@ -462,337 +705,10 @@ Partial Class FormMecanicoMQ2
         Me.CheckBox27.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox27.Location = New System.Drawing.Point(12, 263)
         Me.CheckBox27.Name = "CheckBox27"
-        Me.CheckBox27.Size = New System.Drawing.Size(469, 25)
-        Me.CheckBox27.TabIndex = 98
-        Me.CheckBox27.Text = "Verificar amperaje de bomba de las regueras lado borde (amp)"
+        Me.CheckBox27.Size = New System.Drawing.Size(439, 25)
+        Me.CheckBox27.TabIndex = 117
+        Me.CheckBox27.Text = "Verificar temperatura de central hidraulica de formato (°C)"
         Me.CheckBox27.UseVisualStyleBackColor = True
-        '
-        'CheckBox26
-        '
-        Me.CheckBox26.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox26.AutoSize = True
-        Me.CheckBox26.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox26.Location = New System.Drawing.Point(12, 232)
-        Me.CheckBox26.Name = "CheckBox26"
-        Me.CheckBox26.Size = New System.Drawing.Size(472, 25)
-        Me.CheckBox26.TabIndex = 97
-        Me.CheckBox26.Text = "Verificar amperaje de bomba de las regueras lado rincón (amp)"
-        Me.CheckBox26.UseVisualStyleBackColor = True
-        '
-        'CheckBox25
-        '
-        Me.CheckBox25.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox25.AutoSize = True
-        Me.CheckBox25.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox25.Location = New System.Drawing.Point(12, 201)
-        Me.CheckBox25.Name = "CheckBox25"
-        Me.CheckBox25.Size = New System.Drawing.Size(396, 25)
-        Me.CheckBox25.TabIndex = 96
-        Me.CheckBox25.Text = "Verificar amperaje de bomba de recuperación (amp)"
-        Me.CheckBox25.UseVisualStyleBackColor = True
-        '
-        'CheckBox24
-        '
-        Me.CheckBox24.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox24.AutoSize = True
-        Me.CheckBox24.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox24.Location = New System.Drawing.Point(12, 170)
-        Me.CheckBox24.Name = "CheckBox24"
-        Me.CheckBox24.Size = New System.Drawing.Size(406, 25)
-        Me.CheckBox24.TabIndex = 95
-        Me.CheckBox24.Text = "Verificar amperaje de bomba de vacio volumax (amp)"
-        Me.CheckBox24.UseVisualStyleBackColor = True
-        '
-        'CheckBox23
-        '
-        Me.CheckBox23.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox23.AutoSize = True
-        Me.CheckBox23.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox23.Location = New System.Drawing.Point(12, 139)
-        Me.CheckBox23.Name = "CheckBox23"
-        Me.CheckBox23.Size = New System.Drawing.Size(391, 25)
-        Me.CheckBox23.TabIndex = 94
-        Me.CheckBox23.Text = "Verificar presion de bomba de vacio volumax (inHg)"
-        Me.CheckBox23.UseVisualStyleBackColor = True
-        '
-        'CheckBox22
-        '
-        Me.CheckBox22.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox22.AutoSize = True
-        Me.CheckBox22.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox22.Location = New System.Drawing.Point(12, 108)
-        Me.CheckBox22.Name = "CheckBox22"
-        Me.CheckBox22.Size = New System.Drawing.Size(405, 25)
-        Me.CheckBox22.TabIndex = 92
-        Me.CheckBox22.Text = "Verificar amperaje de bomba de vacio robuschi (amp)"
-        Me.CheckBox22.UseVisualStyleBackColor = True
-        '
-        'CheckBox21
-        '
-        Me.CheckBox21.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox21.AutoSize = True
-        Me.CheckBox21.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox21.Location = New System.Drawing.Point(12, 77)
-        Me.CheckBox21.Name = "CheckBox21"
-        Me.CheckBox21.Size = New System.Drawing.Size(390, 25)
-        Me.CheckBox21.TabIndex = 91
-        Me.CheckBox21.Text = "Verificar presion de bomba de vacio robuschi (inHg)"
-        Me.CheckBox21.UseVisualStyleBackColor = True
-        '
-        'CheckBox20
-        '
-        Me.CheckBox20.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox20.AutoSize = True
-        Me.CheckBox20.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox20.Location = New System.Drawing.Point(12, 46)
-        Me.CheckBox20.Name = "CheckBox20"
-        Me.CheckBox20.Size = New System.Drawing.Size(387, 25)
-        Me.CheckBox20.TabIndex = 90
-        Me.CheckBox20.Text = "Verificar amperaje de bomba de alta presión (amp)"
-        Me.CheckBox20.UseVisualStyleBackColor = True
-        '
-        'CheckBox47
-        '
-        Me.CheckBox47.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox47.AutoSize = True
-        Me.CheckBox47.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox47.Location = New System.Drawing.Point(14, 455)
-        Me.CheckBox47.Name = "CheckBox47"
-        Me.CheckBox47.Size = New System.Drawing.Size(508, 25)
-        Me.CheckBox47.TabIndex = 145
-        Me.CheckBox47.Text = "Inspeccionar correcto funcionamiento de manguera molino desechos"
-        Me.CheckBox47.UseVisualStyleBackColor = True
-        '
-        'CheckBox48
-        '
-        Me.CheckBox48.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox48.AutoSize = True
-        Me.CheckBox48.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox48.Location = New System.Drawing.Point(14, 486)
-        Me.CheckBox48.Name = "CheckBox48"
-        Me.CheckBox48.Size = New System.Drawing.Size(491, 25)
-        Me.CheckBox48.TabIndex = 147
-        Me.CheckBox48.Text = "Inspec. molino de desechos-corregir anomalias (anillos, empaques)"
-        Me.CheckBox48.UseVisualStyleBackColor = True
-        '
-        'CheckBox49
-        '
-        Me.CheckBox49.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox49.AutoSize = True
-        Me.CheckBox49.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox49.Location = New System.Drawing.Point(14, 517)
-        Me.CheckBox49.Name = "CheckBox49"
-        Me.CheckBox49.Size = New System.Drawing.Size(515, 25)
-        Me.CheckBox49.TabIndex = 149
-        Me.CheckBox49.Text = "Inspeccionar estoperos de bombas de desechos corregir si es necesario"
-        Me.CheckBox49.UseVisualStyleBackColor = True
-        '
-        'CheckBox50
-        '
-        Me.CheckBox50.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox50.AutoSize = True
-        Me.CheckBox50.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox50.Location = New System.Drawing.Point(12, 548)
-        Me.CheckBox50.Name = "CheckBox50"
-        Me.CheckBox50.Size = New System.Drawing.Size(508, 25)
-        Me.CheckBox50.TabIndex = 151
-        Me.CheckBox50.Text = "Inspeccionar correcto funcionamiento de manguera molino desechos"
-        Me.CheckBox50.UseVisualStyleBackColor = True
-        '
-        'Panel3
-        '
-        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel3.Controls.Add(Me.CheckBox46)
-        Me.Panel3.Controls.Add(Me.CheckBox45)
-        Me.Panel3.Controls.Add(Me.CheckBox44)
-        Me.Panel3.Controls.Add(Me.CheckBox50)
-        Me.Panel3.Controls.Add(Me.CheckBox43)
-        Me.Panel3.Controls.Add(Me.CheckBox42)
-        Me.Panel3.Controls.Add(Me.CheckBox41)
-        Me.Panel3.Controls.Add(Me.CheckBox47)
-        Me.Panel3.Controls.Add(Me.CheckBox40)
-        Me.Panel3.Controls.Add(Me.CheckBox48)
-        Me.Panel3.Controls.Add(Me.CheckBox39)
-        Me.Panel3.Controls.Add(Me.CheckBox49)
-        Me.Panel3.Controls.Add(Me.CheckBox38)
-        Me.Panel3.Controls.Add(Me.CheckBox37)
-        Me.Panel3.Controls.Add(Me.CheckBox36)
-        Me.Panel3.Controls.Add(Me.CheckBox35)
-        Me.Panel3.Controls.Add(Me.CheckBox34)
-        Me.Panel3.Controls.Add(Me.CheckBox33)
-        Me.Panel3.Location = New System.Drawing.Point(6, 155)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(614, 582)
-        Me.Panel3.TabIndex = 51
-        Me.Panel3.Visible = False
-        '
-        'CheckBox46
-        '
-        Me.CheckBox46.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox46.AutoSize = True
-        Me.CheckBox46.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox46.Location = New System.Drawing.Point(14, 420)
-        Me.CheckBox46.Name = "CheckBox46"
-        Me.CheckBox46.Size = New System.Drawing.Size(252, 25)
-        Me.CheckBox46.TabIndex = 143
-        Me.CheckBox46.Text = "Inspeccionar banda de desechos"
-        Me.CheckBox46.UseVisualStyleBackColor = True
-        '
-        'CheckBox45
-        '
-        Me.CheckBox45.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox45.AutoSize = True
-        Me.CheckBox45.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox45.Location = New System.Drawing.Point(14, 392)
-        Me.CheckBox45.Name = "CheckBox45"
-        Me.CheckBox45.Size = New System.Drawing.Size(290, 25)
-        Me.CheckBox45.TabIndex = 141
-        Me.CheckBox45.Text = "Inspeccionar oruga de las mesas atlas"
-        Me.CheckBox45.UseVisualStyleBackColor = True
-        '
-        'CheckBox44
-        '
-        Me.CheckBox44.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox44.AutoSize = True
-        Me.CheckBox44.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox44.Location = New System.Drawing.Point(14, 361)
-        Me.CheckBox44.Name = "CheckBox44"
-        Me.CheckBox44.Size = New System.Drawing.Size(280, 25)
-        Me.CheckBox44.TabIndex = 139
-        Me.CheckBox44.Text = "Inspeccionar oruga del carro viajero"
-        Me.CheckBox44.UseVisualStyleBackColor = True
-        '
-        'CheckBox43
-        '
-        Me.CheckBox43.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox43.AutoSize = True
-        Me.CheckBox43.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox43.Location = New System.Drawing.Point(14, 330)
-        Me.CheckBox43.Name = "CheckBox43"
-        Me.CheckBox43.Size = New System.Drawing.Size(270, 25)
-        Me.CheckBox43.TabIndex = 137
-        Me.CheckBox43.Text = "Registrar ciclo de onduladora (seg)"
-        Me.CheckBox43.UseVisualStyleBackColor = True
-        '
-        'CheckBox42
-        '
-        Me.CheckBox42.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox42.AutoSize = True
-        Me.CheckBox42.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox42.Location = New System.Drawing.Point(14, 299)
-        Me.CheckBox42.Name = "CheckBox42"
-        Me.CheckBox42.Size = New System.Drawing.Size(177, 25)
-        Me.CheckBox42.TabIndex = 135
-        Me.CheckBox42.Text = "Registrar cuadratura "
-        Me.CheckBox42.UseVisualStyleBackColor = True
-        '
-        'CheckBox41
-        '
-        Me.CheckBox41.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox41.AutoSize = True
-        Me.CheckBox41.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox41.Location = New System.Drawing.Point(14, 268)
-        Me.CheckBox41.Name = "CheckBox41"
-        Me.CheckBox41.Size = New System.Drawing.Size(462, 25)
-        Me.CheckBox41.TabIndex = 133
-        Me.CheckBox41.Text = "Verificar temperatura de central hidraulica de mesas atlas (°C)"
-        Me.CheckBox41.UseVisualStyleBackColor = True
-        '
-        'CheckBox40
-        '
-        Me.CheckBox40.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox40.AutoSize = True
-        Me.CheckBox40.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox40.Location = New System.Drawing.Point(14, 237)
-        Me.CheckBox40.Name = "CheckBox40"
-        Me.CheckBox40.Size = New System.Drawing.Size(513, 25)
-        Me.CheckBox40.TabIndex = 131
-        Me.CheckBox40.Text = "Verificar estado de los cables de alimentaciòn de los carros apiladores"
-        Me.CheckBox40.UseVisualStyleBackColor = True
-        '
-        'CheckBox39
-        '
-        Me.CheckBox39.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox39.AutoSize = True
-        Me.CheckBox39.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox39.Location = New System.Drawing.Point(14, 206)
-        Me.CheckBox39.Name = "CheckBox39"
-        Me.CheckBox39.Size = New System.Drawing.Size(292, 25)
-        Me.CheckBox39.TabIndex = 129
-        Me.CheckBox39.Text = "Presion hidrualica de mesas atlas (psi)"
-        Me.CheckBox39.UseVisualStyleBackColor = True
-        '
-        'CheckBox38
-        '
-        Me.CheckBox38.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox38.AutoSize = True
-        Me.CheckBox38.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox38.Location = New System.Drawing.Point(14, 172)
-        Me.CheckBox38.Name = "CheckBox38"
-        Me.CheckBox38.Size = New System.Drawing.Size(377, 25)
-        Me.CheckBox38.TabIndex = 127
-        Me.CheckBox38.Text = "Presion hidrualica de cilindros de aspiradoras (psi)"
-        Me.CheckBox38.UseVisualStyleBackColor = True
-        '
-        'CheckBox37
-        '
-        Me.CheckBox37.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox37.AutoSize = True
-        Me.CheckBox37.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox37.Location = New System.Drawing.Point(14, 138)
-        Me.CheckBox37.Name = "CheckBox37"
-        Me.CheckBox37.Size = New System.Drawing.Size(516, 25)
-        Me.CheckBox37.TabIndex = 125
-        Me.CheckBox37.Text = "Verif. temp. de centr. hidraul. de carro viajero y cilindro de aspira/s(°C)"
-        Me.CheckBox37.UseVisualStyleBackColor = True
-        '
-        'CheckBox36
-        '
-        Me.CheckBox36.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox36.AutoSize = True
-        Me.CheckBox36.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox36.Location = New System.Drawing.Point(14, 107)
-        Me.CheckBox36.Name = "CheckBox36"
-        Me.CheckBox36.Size = New System.Drawing.Size(301, 25)
-        Me.CheckBox36.TabIndex = 123
-        Me.CheckBox36.Text = "Presion hidraulica de carro viajero (psi)"
-        Me.CheckBox36.UseVisualStyleBackColor = True
-        '
-        'CheckBox35
-        '
-        Me.CheckBox35.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox35.AutoSize = True
-        Me.CheckBox35.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox35.Location = New System.Drawing.Point(14, 76)
-        Me.CheckBox35.Name = "CheckBox35"
-        Me.CheckBox35.Size = New System.Drawing.Size(480, 25)
-        Me.CheckBox35.TabIndex = 121
-        Me.CheckBox35.Text = "Verificar temp. de central hidraulica de sierras longitudinales (°C)"
-        Me.CheckBox35.UseVisualStyleBackColor = True
-        '
-        'CheckBox34
-        '
-        Me.CheckBox34.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox34.AutoSize = True
-        Me.CheckBox34.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox34.Location = New System.Drawing.Point(14, 45)
-        Me.CheckBox34.Name = "CheckBox34"
-        Me.CheckBox34.Size = New System.Drawing.Size(432, 25)
-        Me.CheckBox34.TabIndex = 119
-        Me.CheckBox34.Text = "Presion hidraulica de puente de sierras longitudinales (psi)"
-        Me.CheckBox34.UseVisualStyleBackColor = True
-        '
-        'CheckBox33
-        '
-        Me.CheckBox33.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox33.AutoSize = True
-        Me.CheckBox33.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox33.Location = New System.Drawing.Point(14, 14)
-        Me.CheckBox33.Name = "CheckBox33"
-        Me.CheckBox33.Size = New System.Drawing.Size(439, 25)
-        Me.CheckBox33.TabIndex = 117
-        Me.CheckBox33.Text = "Verificar temperatura de central hidraulica de formato (°C)"
-        Me.CheckBox33.UseVisualStyleBackColor = True
         '
         'TextBox2
         '
@@ -931,93 +847,93 @@ Partial Class FormMecanicoMQ2
         Me.Label2.TabIndex = 53
         Me.Label2.Text = "Selecione una opción"
         '
-        'CheckBox51
+        'CheckBox45
         '
-        Me.CheckBox51.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox51.AutoSize = True
-        Me.CheckBox51.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox51.Location = New System.Drawing.Point(11, 15)
-        Me.CheckBox51.Name = "CheckBox51"
-        Me.CheckBox51.Size = New System.Drawing.Size(361, 25)
-        Me.CheckBox51.TabIndex = 175
-        Me.CheckBox51.Text = "Verificar temperatura de central hidraulica  (°C)"
-        Me.CheckBox51.UseVisualStyleBackColor = True
+        Me.CheckBox45.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox45.AutoSize = True
+        Me.CheckBox45.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox45.Location = New System.Drawing.Point(11, 15)
+        Me.CheckBox45.Name = "CheckBox45"
+        Me.CheckBox45.Size = New System.Drawing.Size(361, 25)
+        Me.CheckBox45.TabIndex = 175
+        Me.CheckBox45.Text = "Verificar temperatura de central hidraulica  (°C)"
+        Me.CheckBox45.UseVisualStyleBackColor = True
         '
-        'CheckBox52
+        'CheckBox46
         '
-        Me.CheckBox52.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox52.AutoSize = True
-        Me.CheckBox52.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox52.Location = New System.Drawing.Point(11, 49)
-        Me.CheckBox52.Name = "CheckBox52"
-        Me.CheckBox52.Size = New System.Drawing.Size(375, 25)
-        Me.CheckBox52.TabIndex = 177
-        Me.CheckBox52.Text = "Presion hidraulica de carro viajero y cilindros (psi)"
-        Me.CheckBox52.UseVisualStyleBackColor = True
+        Me.CheckBox46.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox46.AutoSize = True
+        Me.CheckBox46.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox46.Location = New System.Drawing.Point(11, 49)
+        Me.CheckBox46.Name = "CheckBox46"
+        Me.CheckBox46.Size = New System.Drawing.Size(375, 25)
+        Me.CheckBox46.TabIndex = 177
+        Me.CheckBox46.Text = "Presion hidraulica de carro viajero y cilindros (psi)"
+        Me.CheckBox46.UseVisualStyleBackColor = True
         '
-        'CheckBox53
+        'CheckBox47
         '
-        Me.CheckBox53.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox53.AutoSize = True
-        Me.CheckBox53.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox53.Location = New System.Drawing.Point(11, 80)
-        Me.CheckBox53.Name = "CheckBox53"
-        Me.CheckBox53.Size = New System.Drawing.Size(292, 25)
-        Me.CheckBox53.TabIndex = 179
-        Me.CheckBox53.Text = "Presion hidrualica de mesas atlas (psi)"
-        Me.CheckBox53.UseVisualStyleBackColor = True
+        Me.CheckBox47.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox47.AutoSize = True
+        Me.CheckBox47.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox47.Location = New System.Drawing.Point(11, 80)
+        Me.CheckBox47.Name = "CheckBox47"
+        Me.CheckBox47.Size = New System.Drawing.Size(292, 25)
+        Me.CheckBox47.TabIndex = 179
+        Me.CheckBox47.Text = "Presion hidrualica de mesas atlas (psi)"
+        Me.CheckBox47.UseVisualStyleBackColor = True
         '
-        'CheckBox55
+        'CheckBox49
         '
-        Me.CheckBox55.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox55.AutoSize = True
-        Me.CheckBox55.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox55.Location = New System.Drawing.Point(11, 143)
-        Me.CheckBox55.Name = "CheckBox55"
-        Me.CheckBox55.Size = New System.Drawing.Size(167, 25)
-        Me.CheckBox55.TabIndex = 183
-        Me.CheckBox55.Text = "Registrar ciclo (SEG)"
-        Me.CheckBox55.UseVisualStyleBackColor = True
+        Me.CheckBox49.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox49.AutoSize = True
+        Me.CheckBox49.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox49.Location = New System.Drawing.Point(11, 143)
+        Me.CheckBox49.Name = "CheckBox49"
+        Me.CheckBox49.Size = New System.Drawing.Size(167, 25)
+        Me.CheckBox49.TabIndex = 183
+        Me.CheckBox49.Text = "Registrar ciclo (SEG)"
+        Me.CheckBox49.UseVisualStyleBackColor = True
         '
-        'CheckBox56
+        'CheckBox50
         '
-        Me.CheckBox56.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox56.AutoSize = True
-        Me.CheckBox56.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox56.Location = New System.Drawing.Point(11, 175)
-        Me.CheckBox56.Name = "CheckBox56"
-        Me.CheckBox56.Size = New System.Drawing.Size(309, 46)
-        Me.CheckBox56.TabIndex = 185
-        Me.CheckBox56.Text = "Inspec. cilindros de carro viajero " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(cero fugas, total recorrido, sin holguras)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.CheckBox56.UseVisualStyleBackColor = True
+        Me.CheckBox50.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox50.AutoSize = True
+        Me.CheckBox50.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox50.Location = New System.Drawing.Point(11, 175)
+        Me.CheckBox50.Name = "CheckBox50"
+        Me.CheckBox50.Size = New System.Drawing.Size(309, 46)
+        Me.CheckBox50.TabIndex = 185
+        Me.CheckBox50.Text = "Inspec. cilindros de carro viajero " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(cero fugas, total recorrido, sin holguras)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.CheckBox50.UseVisualStyleBackColor = True
         '
         'Panel4
         '
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel4.Controls.Add(Me.CheckBox56)
-        Me.Panel4.Controls.Add(Me.CheckBox55)
-        Me.Panel4.Controls.Add(Me.CheckBox54)
-        Me.Panel4.Controls.Add(Me.CheckBox53)
-        Me.Panel4.Controls.Add(Me.CheckBox52)
-        Me.Panel4.Controls.Add(Me.CheckBox51)
+        Me.Panel4.Controls.Add(Me.CheckBox50)
+        Me.Panel4.Controls.Add(Me.CheckBox49)
+        Me.Panel4.Controls.Add(Me.CheckBox48)
+        Me.Panel4.Controls.Add(Me.CheckBox47)
+        Me.Panel4.Controls.Add(Me.CheckBox46)
+        Me.Panel4.Controls.Add(Me.CheckBox45)
         Me.Panel4.Enabled = False
-        Me.Panel4.Location = New System.Drawing.Point(8, 155)
+        Me.Panel4.Location = New System.Drawing.Point(6, 155)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(617, 250)
         Me.Panel4.TabIndex = 158
         Me.Panel4.Visible = False
         '
-        'CheckBox54
+        'CheckBox48
         '
-        Me.CheckBox54.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox54.AutoSize = True
-        Me.CheckBox54.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox54.Location = New System.Drawing.Point(11, 111)
-        Me.CheckBox54.Name = "CheckBox54"
-        Me.CheckBox54.Size = New System.Drawing.Size(482, 25)
-        Me.CheckBox54.TabIndex = 181
-        Me.CheckBox54.Text = "Verificar estado de los cables de aliment. de los carros apiladores "
-        Me.CheckBox54.UseVisualStyleBackColor = True
+        Me.CheckBox48.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox48.AutoSize = True
+        Me.CheckBox48.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox48.Location = New System.Drawing.Point(11, 111)
+        Me.CheckBox48.Name = "CheckBox48"
+        Me.CheckBox48.Size = New System.Drawing.Size(482, 25)
+        Me.CheckBox48.TabIndex = 181
+        Me.CheckBox48.Text = "Verificar estado de los cables de aliment. de los carros apiladores "
+        Me.CheckBox48.UseVisualStyleBackColor = True
         '
         'FormMecanicoMQ2
         '
@@ -1090,12 +1006,6 @@ Partial Class FormMecanicoMQ2
     Friend WithEvents CheckBox3 As CheckBox
     Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents CheckBox32 As CheckBox
-    Friend WithEvents CheckBox31 As CheckBox
-    Friend WithEvents CheckBox30 As CheckBox
-    Friend WithEvents CheckBox29 As CheckBox
-    Friend WithEvents CheckBox28 As CheckBox
-    Friend WithEvents CheckBox27 As CheckBox
     Friend WithEvents CheckBox26 As CheckBox
     Friend WithEvents CheckBox25 As CheckBox
     Friend WithEvents CheckBox24 As CheckBox
@@ -1106,32 +1016,32 @@ Partial Class FormMecanicoMQ2
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents CheckBox34 As CheckBox
-    Friend WithEvents CheckBox33 As CheckBox
+    Friend WithEvents CheckBox28 As CheckBox
+    Friend WithEvents CheckBox27 As CheckBox
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents CheckBox47 As CheckBox
-    Friend WithEvents CheckBox48 As CheckBox
-    Friend WithEvents CheckBox49 As CheckBox
-    Friend WithEvents CheckBox50 As CheckBox
-    Friend WithEvents CheckBox46 As CheckBox
-    Friend WithEvents CheckBox45 As CheckBox
-    Friend WithEvents CheckBox44 As CheckBox
-    Friend WithEvents CheckBox43 As CheckBox
-    Friend WithEvents CheckBox42 As CheckBox
     Friend WithEvents CheckBox41 As CheckBox
+    Friend WithEvents CheckBox42 As CheckBox
+    Friend WithEvents CheckBox43 As CheckBox
+    Friend WithEvents CheckBox44 As CheckBox
     Friend WithEvents CheckBox40 As CheckBox
     Friend WithEvents CheckBox39 As CheckBox
     Friend WithEvents CheckBox38 As CheckBox
     Friend WithEvents CheckBox37 As CheckBox
     Friend WithEvents CheckBox36 As CheckBox
     Friend WithEvents CheckBox35 As CheckBox
+    Friend WithEvents CheckBox34 As CheckBox
+    Friend WithEvents CheckBox33 As CheckBox
+    Friend WithEvents CheckBox32 As CheckBox
+    Friend WithEvents CheckBox31 As CheckBox
+    Friend WithEvents CheckBox30 As CheckBox
+    Friend WithEvents CheckBox29 As CheckBox
     Friend WithEvents ComboBox100 As ComboBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents CheckBox51 As CheckBox
-    Friend WithEvents CheckBox52 As CheckBox
-    Friend WithEvents CheckBox53 As CheckBox
-    Friend WithEvents CheckBox55 As CheckBox
-    Friend WithEvents CheckBox56 As CheckBox
+    Friend WithEvents CheckBox45 As CheckBox
+    Friend WithEvents CheckBox46 As CheckBox
+    Friend WithEvents CheckBox47 As CheckBox
+    Friend WithEvents CheckBox49 As CheckBox
+    Friend WithEvents CheckBox50 As CheckBox
     Friend WithEvents Panel4 As Panel
-    Friend WithEvents CheckBox54 As CheckBox
+    Friend WithEvents CheckBox48 As CheckBox
 End Class
