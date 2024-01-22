@@ -49,7 +49,7 @@ Partial Class FormPrincipal
         Me.CmbArea.FormattingEnabled = True
         Me.CmbArea.Location = New System.Drawing.Point(459, 331)
         Me.CmbArea.Name = "CmbArea"
-        Me.CmbArea.Size = New System.Drawing.Size(355, 51)
+        Me.CmbArea.Size = New System.Drawing.Size(365, 51)
         Me.CmbArea.TabIndex = 1
         '
         'Label1
@@ -114,7 +114,7 @@ Partial Class FormPrincipal
         Me.CmbEquipo.FormattingEnabled = True
         Me.CmbEquipo.Location = New System.Drawing.Point(869, 331)
         Me.CmbEquipo.Name = "CmbEquipo"
-        Me.CmbEquipo.Size = New System.Drawing.Size(355, 51)
+        Me.CmbEquipo.Size = New System.Drawing.Size(383, 51)
         Me.CmbEquipo.TabIndex = 6
         '
         'FormPrincipal
@@ -125,7 +125,7 @@ Partial Class FormPrincipal
         Me.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1264, 749)
+        Me.ClientSize = New System.Drawing.Size(1284, 749)
         Me.Controls.Add(Me.CmbEquipo)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)

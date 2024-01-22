@@ -37,7 +37,7 @@ Partial Class FormBienvenida
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(1264, 749)
+        Me.ClientSize = New System.Drawing.Size(1284, 749)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FormBienvenida"
         Me.Text = "BIENVENIDO"

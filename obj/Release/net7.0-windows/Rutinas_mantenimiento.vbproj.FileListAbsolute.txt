@@ -38,3 +38,10 @@ C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento
 C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento\obj\Release\net7.0-windows\ref\Rutinas_mantenimiento.dll
 C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento\obj\Release\net7.0-windows\Rutinas_mantenimiento.FormElectricoCaldAut.resources
 C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento\obj\Release\net7.0-windows\Rutinas_mantenimiento.FormBienvenida.resources
+C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento\obj\Release\net7.0-windows\Rutinas_mantenimiento.FormElectricoSubestacion.resources
+C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento\obj\Release\net7.0-windows\Rutinas_mantenimiento.FormMecanicoCambioEquipo.resources
+C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento\obj\Release\net7.0-windows\Rutinas_mantenimiento.FormMecanicoMQ1.resources
+C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento\obj\Release\net7.0-windows\Rutinas_mantenimiento.FormMecanicoMQ2.resources
+C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento\obj\Release\net7.0-windows\Rutinas_mantenimiento.FormMecanicoPintura.resources
+C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento\obj\Release\net7.0-windows\Rutinas_mantenimiento.FormMecanicoPteGrua.resources
+C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento\obj\Release\net7.0-windows\Rutinas_mantenimiento.FormMecanicoPuntosVerificacion.resources

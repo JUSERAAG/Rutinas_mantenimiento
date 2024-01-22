@@ -20,6 +20,7 @@ Imports System.Reflection
  Assembly: System.Reflection.AssemblyProductAttribute("Rutinas_mantenimiento"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Rutinas_mantenimiento"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
+ Assembly: System.Resources.NeutralResourcesLanguageAttribute("es-419"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
  Assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")> 
 

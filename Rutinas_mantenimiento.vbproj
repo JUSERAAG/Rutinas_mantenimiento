@@ -14,6 +14,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="mecanicos\FormMecanicoPintura.resx~RF6382fbf2.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="recursos\logo-toptec.ico" />
   </ItemGroup>
 
@@ -29,6 +33,19 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="electricos\FormElectricoForm2.vb" />
+    <Compile Update="mecanicos\FormMecanicoMQ1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="mecanicos\FormMecanicoCambioEquipo.vb" />
+    <Compile Update="mecanicos\FormMecanicoPuntosVerificacion.vb" />
+    <Compile Update="mecanicos\FormMecanicoPintura.vb" />
+    <Compile Update="mecanicos\FormMecanicoPteGrua.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="mecanicos\FormMecanicoMQ2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="mecanicos\FormMecanicoNT.vb" />
     <Compile Update="electricos\FormElectricoOnd2.vb">
       <SubType>Form</SubType>
     </Compile>
