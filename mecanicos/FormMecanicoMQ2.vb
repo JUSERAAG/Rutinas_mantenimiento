@@ -1,4 +1,5 @@
 ﻿Imports System.Data.SqlClient
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Button
 Imports Rutinas_mantenimiento.consultas
 Public Class FormMecanicoMQ2
     Private Sub FormPrincipal_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
@@ -24,7 +25,7 @@ Public Class FormMecanicoMQ2
         Using conexion As New SqlConnection(conn)
             Try
                 conexion.Open()
-                Dim consulta As String = "INSERT INTO dbo.Mecanico_NT VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41,@VAR42,@VAR43,@VAR44,@VAR45,@VAR46,@VAR47,@VAR48,@VAR49,@VAR50,@VAR51,@VAR52)"
+                Dim consulta As String = "INSERT INTO dbo.Mecanico_MQ2 VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41,@VAR42,@VAR43,@VAR44,@VAR45,@VAR46,@VAR47,@VAR48,@VAR49,@VAR50)"
                 Using comando As New SqlCommand(consulta, conexion)
                     ' agregar parámetros
                     comando.Parameters.AddWithValue("@FECHA", DateTime.Now.Date)
@@ -49,43 +50,36 @@ Public Class FormMecanicoMQ2
                     comando.Parameters.AddWithValue("@VAR18", If(CheckBox18.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR19", If(CheckBox19.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR20", If(CheckBox20.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR21", If(CheckBox20.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR21", If(CheckBox21.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR22", If(CheckBox22.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR23", If(CheckBox21.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR23", If(CheckBox23.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR24", If(CheckBox24.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR25", If(CheckBox25.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR26", If(CheckBox26.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR27", If(CheckBox27.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR28", If(CheckBox24.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR29", If(CheckBox25.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR30", If(CheckBox26.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR31", If(CheckBox25.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR32", If(CheckBox26.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR33", If(CheckBox27.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR34", If(CheckBox28.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR35", If(CheckBox29.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR36", If(CheckBox30.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR37", If(CheckBox31.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR38", If(CheckBox32.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR39", If(CheckBox33.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR40", If(CheckBox34.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR41", If(CheckBox35.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR42", If(CheckBox36.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR43", If(CheckBox37.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR44", If(CheckBox38.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR45", If(CheckBox39.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR46", If(CheckBox40.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR47", If(CheckBox41.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR48", If(CheckBox42.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR49", If(CheckBox43.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR50", If(CheckBox44.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR51", If(CheckBox45.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR52", If(CheckBox46.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR53", If(CheckBox47.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR54", If(CheckBox48.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR55", If(CheckBox49.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR56", If(CheckBox50.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR57", TextBox1.Text)
+                    comando.Parameters.AddWithValue("@VAR28", If(CheckBox28.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR29", If(CheckBox29.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR30", If(CheckBox30.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR31", If(CheckBox31.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR32", If(CheckBox32.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR33", If(CheckBox33.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR34", If(CheckBox34.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR35", If(CheckBox35.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR36", If(CheckBox36.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR37", If(CheckBox37.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR38", If(CheckBox38.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR39", If(CheckBox39.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR40", If(CheckBox40.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR41", If(CheckBox41.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR42", If(CheckBox42.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR43", If(CheckBox43.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR44", If(CheckBox44.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR45", If(CheckBox45.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR46", If(CheckBox46.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR47", If(CheckBox47.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR48", If(CheckBox48.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR49", If(CheckBox49.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR50", TextBox1.Text)
                     ' ejecutar la consulta
                     comando.ExecuteNonQuery()
                     MessageBox.Show("datos insertados correctamente.")
@@ -120,16 +114,10 @@ Public Class FormMecanicoMQ2
         CheckBox18.Checked = False
         CheckBox19.Checked = False
         CheckBox20.Checked = False
-        CheckBox20.Checked = False
-        CheckBox22.Checked = False
         CheckBox21.Checked = False
+        CheckBox22.Checked = False
+        CheckBox23.Checked = False
         CheckBox24.Checked = False
-        CheckBox25.Checked = False
-        CheckBox26.Checked = False
-        CheckBox27.Checked = False
-        CheckBox24.Checked = False
-        CheckBox25.Checked = False
-        CheckBox26.Checked = False
         CheckBox25.Checked = False
         CheckBox26.Checked = False
         CheckBox27.Checked = False
@@ -155,8 +143,8 @@ Public Class FormMecanicoMQ2
         CheckBox47.Checked = False
         CheckBox48.Checked = False
         CheckBox49.Checked = False
-        CheckBox50.Checked = False
     End Sub
+
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox100.SelectedIndexChanged
         Select Case ComboBox100.SelectedItem()

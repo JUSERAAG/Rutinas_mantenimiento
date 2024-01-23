@@ -24,7 +24,7 @@ Public Class FormMecanicoPteGrua
         Using conexion As New SqlConnection(conn)
             Try
                 conexion.Open()
-                Dim consulta As String = "INSERT INTO dbo.Mecanico_NT VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41,@VAR42,@VAR43,@VAR44,@VAR45,@VAR46,@VAR47,@VAR48,@VAR49,@VAR50,@VAR51,@VAR52)"
+                Dim consulta As String = "INSERT INTO dbo.Mecanico_Pte_Grua VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41,@VAR42,@VAR43,@VAR44,@VAR45,@VAR46,@VAR47,@VAR48,@VAR49,@VAR50,@VAR51,@VAR52,@VAR53,@VAR54,@VAR55,@VAR56,@VAR57,@VAR58,@VAR59,@VAR60,@VAR61,@VAR62,@VAR63,@VAR64,@VAR65,@VAR66,@VAR67,@VAR68,@VAR69,@VAR70,@VAR71,@VAR72,@VAR73,@VAR74,@VAR75,@VAR76,@VAR77,@VAR78,@VAR79,@VAR80,@VAR81,@VAR82,@VAR83,@VAR84)"
                 Using comando As New SqlCommand(consulta, conexion)
                     ' agregar parámetros
                     comando.Parameters.AddWithValue("@FECHA", DateTime.Now.Date)
@@ -94,7 +94,25 @@ Public Class FormMecanicoPteGrua
                     comando.Parameters.AddWithValue("@VAR63", If(CheckBox63.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR64", If(CheckBox64.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR65", If(CheckBox65.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR66", ComboBox1.Text)
+                    comando.Parameters.AddWithValue("@VAR66", If(CheckBox66.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR67", If(CheckBox67.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR68", If(CheckBox68.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR69", If(CheckBox69.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR70", If(CheckBox70.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR71", If(CheckBox71.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR72", If(CheckBox72.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR73", If(CheckBox73.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR74", If(CheckBox74.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR75", If(CheckBox75.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR76", If(CheckBox76.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR77", If(CheckBox77.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR78", If(CheckBox78.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR79", If(CheckBox79.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR80", If(CheckBox80.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR81", If(CheckBox81.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR82", If(CheckBox82.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR83", If(CheckBox83.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR84", TextBox1.Text)
                     ' ejecutar la consulta
                     comando.ExecuteNonQuery()
                     MessageBox.Show("datos insertados correctamente.")
@@ -165,6 +183,7 @@ Public Class FormMecanicoPteGrua
         CheckBox54.Checked = False
         CheckBox55.Checked = False
         CheckBox56.Checked = False
+        CheckBox58.Checked = False
         CheckBox57.Checked = False
         CheckBox58.Checked = False
         CheckBox59.Checked = False
@@ -172,8 +191,30 @@ Public Class FormMecanicoPteGrua
         CheckBox61.Checked = False
         CheckBox62.Checked = False
         CheckBox63.Checked = False
+        CheckBox62.Checked = False
+        CheckBox63.Checked = False
         CheckBox64.Checked = False
         CheckBox65.Checked = False
+        CheckBox66.Checked = False
+        CheckBox68.Checked = False
+        CheckBox67.Checked = False
+        CheckBox68.Checked = False
+        CheckBox69.Checked = False
+        CheckBox70.Checked = False
+        CheckBox71.Checked = False
+        CheckBox72.Checked = False
+        CheckBox73.Checked = False
+        CheckBox74.Checked = False
+        CheckBox75.Checked = False
+        CheckBox76.Checked = False
+        CheckBox78.Checked = False
+        CheckBox77.Checked = False
+        CheckBox78.Checked = False
+        CheckBox79.Checked = False
+        CheckBox80.Checked = False
+        CheckBox81.Checked = False
+        CheckBox82.Checked = False
+        CheckBox83.Checked = False
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox100.SelectedIndexChanged

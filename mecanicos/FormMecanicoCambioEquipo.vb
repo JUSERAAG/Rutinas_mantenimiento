@@ -1,4 +1,5 @@
 ﻿Imports System.Data.SqlClient
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Button
 Imports Rutinas_mantenimiento.consultas
 Public Class FormMecanicoCambioEquipo
     Private Sub FormPrincipal_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
@@ -24,7 +25,7 @@ Public Class FormMecanicoCambioEquipo
         Using conexion As New SqlConnection(conn)
             Try
                 conexion.Open()
-                Dim consulta As String = "INSERT INTO dbo.Mecanico_NT VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41,@VAR42,@VAR43,@VAR44,@VAR45,@VAR46,@VAR47,@VAR48,@VAR49,@VAR50,@VAR51,@VAR52)"
+                Dim consulta As String = "INSERT INTO dbo.Mecanico_Cambio_equipo VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41,@VAR42,@VAR43,@VAR44,@VAR45,@VAR46,@VAR47,@VAR48,@VAR49,@VAR50,@VAR51,@VAR52,@VAR53,@VAR54,@VAR55,@VAR56)"
                 Using comando As New SqlCommand(consulta, conexion)
                     ' agregar parámetros
                     comando.Parameters.AddWithValue("@FECHA", DateTime.Now.Date)
@@ -80,7 +81,11 @@ Public Class FormMecanicoCambioEquipo
                     comando.Parameters.AddWithValue("@VAR49", If(CheckBox49.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR50", If(CheckBox50.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR51", If(CheckBox51.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR52", TextBox1.Text)
+                    comando.Parameters.AddWithValue("@VAR52", If(CheckBox52.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR53", If(CheckBox53.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR54", If(CheckBox54.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR55", If(CheckBox55.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR56", TextBox1.Text)
                     ' ejecutar la consulta
                     comando.ExecuteNonQuery()
                     MessageBox.Show("datos insertados correctamente.")
@@ -146,6 +151,10 @@ Public Class FormMecanicoCambioEquipo
         CheckBox49.Checked = False
         CheckBox50.Checked = False
         CheckBox51.Checked = False
+        CheckBox52.Checked = False
+        CheckBox53.Checked = False
+        CheckBox54.Checked = False
+        CheckBox55.Checked = False
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox100.SelectedIndexChanged

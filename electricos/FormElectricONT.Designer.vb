@@ -86,8 +86,8 @@ Partial Class FormElectricoNT
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TextBox33 = New System.Windows.Forms.TextBox()
-        Me.TextBox34 = New System.Windows.Forms.TextBox()
         Me.TextBox35 = New System.Windows.Forms.TextBox()
+        Me.TextBox36 = New System.Windows.Forms.TextBox()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -99,6 +99,8 @@ Partial Class FormElectricoNT
         Me.Label38 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.TextBox34 = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -748,21 +750,21 @@ Partial Class FormElectricoNT
         Me.TextBox33.Size = New System.Drawing.Size(75, 29)
         Me.TextBox33.TabIndex = 29
         '
-        'TextBox34
-        '
-        Me.TextBox34.Enabled = False
-        Me.TextBox34.Location = New System.Drawing.Point(175, 54)
-        Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New System.Drawing.Size(77, 23)
-        Me.TextBox34.TabIndex = 41
-        '
         'TextBox35
         '
         Me.TextBox35.Enabled = False
-        Me.TextBox35.Location = New System.Drawing.Point(266, 54)
+        Me.TextBox35.Location = New System.Drawing.Point(175, 54)
         Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New System.Drawing.Size(80, 23)
-        Me.TextBox35.TabIndex = 42
+        Me.TextBox35.Size = New System.Drawing.Size(77, 23)
+        Me.TextBox35.TabIndex = 41
+        '
+        'TextBox36
+        '
+        Me.TextBox36.Enabled = False
+        Me.TextBox36.Location = New System.Drawing.Point(266, 54)
+        Me.TextBox36.Name = "TextBox36"
+        Me.TextBox36.Size = New System.Drawing.Size(80, 23)
+        Me.TextBox36.TabIndex = 42
         '
         'Label34
         '
@@ -882,6 +884,27 @@ Partial Class FormElectricoNT
         Me.Button5.TabIndex = 51
         Me.Button5.UseVisualStyleBackColor = True
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label11.Location = New System.Drawing.Point(39, 573)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(127, 21)
+        Me.Label11.TabIndex = 53
+        Me.Label11.Text = "OBSERVACIÓN"
+        '
+        'TextBox34
+        '
+        Me.TextBox34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox34.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.TextBox34.Location = New System.Drawing.Point(41, 597)
+        Me.TextBox34.Multiline = True
+        Me.TextBox34.Name = "TextBox34"
+        Me.TextBox34.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.TextBox34.Size = New System.Drawing.Size(909, 86)
+        Me.TextBox34.TabIndex = 54
+        '
         'FormElectricoNT
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -889,6 +912,8 @@ Partial Class FormElectricoNT
         Me.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(1264, 749)
+        Me.Controls.Add(Me.TextBox34)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label39)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label38)
@@ -900,8 +925,8 @@ Partial Class FormElectricoNT
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label35)
         Me.Controls.Add(Me.Label34)
+        Me.Controls.Add(Me.TextBox36)
         Me.Controls.Add(Me.TextBox35)
-        Me.Controls.Add(Me.TextBox34)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Panel7)
         Me.Controls.Add(Me.Label6)
@@ -984,8 +1009,8 @@ Partial Class FormElectricoNT
     Friend WithEvents Label29 As Label
     Friend WithEvents Label30 As Label
     Friend WithEvents Panel7 As Panel
-    Friend WithEvents TextBox34 As TextBox
     Friend WithEvents TextBox35 As TextBox
+    Friend WithEvents TextBox36 As TextBox
     Friend WithEvents Label34 As Label
     Friend WithEvents Label35 As Label
     Friend WithEvents Button1 As Button
@@ -1011,4 +1036,6 @@ Partial Class FormElectricoNT
     Friend WithEvents Label17 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents TextBox33 As TextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents TextBox34 As TextBox
 End Class

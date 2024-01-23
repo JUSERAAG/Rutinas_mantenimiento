@@ -25,32 +25,32 @@ Partial Class FormMecanicoPuntosVerificacion
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormMecanicoPuntosVerificacion))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
         Me.CheckBox12 = New System.Windows.Forms.CheckBox()
         Me.CheckBox11 = New System.Windows.Forms.CheckBox()
         Me.CheckBox10 = New System.Windows.Forms.CheckBox()
         Me.CheckBox9 = New System.Windows.Forms.CheckBox()
         Me.CheckBox8 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
         Me.CheckBox6 = New System.Windows.Forms.CheckBox()
         Me.CheckBox5 = New System.Windows.Forms.CheckBox()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox19 = New System.Windows.Forms.CheckBox()
         Me.CheckBox18 = New System.Windows.Forms.CheckBox()
         Me.CheckBox17 = New System.Windows.Forms.CheckBox()
         Me.CheckBox16 = New System.Windows.Forms.CheckBox()
         Me.CheckBox15 = New System.Windows.Forms.CheckBox()
         Me.CheckBox14 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox19 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox20 = New System.Windows.Forms.CheckBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.CheckBox24 = New System.Windows.Forms.CheckBox()
         Me.CheckBox23 = New System.Windows.Forms.CheckBox()
         Me.CheckBox22 = New System.Windows.Forms.CheckBox()
         Me.CheckBox21 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox20 = New System.Windows.Forms.CheckBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox54 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -58,8 +58,9 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
-        Me.TextBox52 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -78,12 +79,13 @@ Partial Class FormMecanicoPuntosVerificacion
         '
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel1.Controls.Add(Me.CheckBox7)
+        Me.Panel1.Controls.Add(Me.CheckBox13)
         Me.Panel1.Controls.Add(Me.CheckBox12)
         Me.Panel1.Controls.Add(Me.CheckBox11)
         Me.Panel1.Controls.Add(Me.CheckBox10)
         Me.Panel1.Controls.Add(Me.CheckBox9)
         Me.Panel1.Controls.Add(Me.CheckBox8)
-        Me.Panel1.Controls.Add(Me.CheckBox7)
         Me.Panel1.Controls.Add(Me.CheckBox6)
         Me.Panel1.Controls.Add(Me.CheckBox5)
         Me.Panel1.Controls.Add(Me.CheckBox4)
@@ -92,8 +94,20 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.Panel1.Controls.Add(Me.CheckBox1)
         Me.Panel1.Location = New System.Drawing.Point(12, 189)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(618, 410)
+        Me.Panel1.Size = New System.Drawing.Size(618, 422)
         Me.Panel1.TabIndex = 2
+        '
+        'CheckBox13
+        '
+        Me.CheckBox13.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox13.AutoSize = True
+        Me.CheckBox13.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox13.Location = New System.Drawing.Point(12, 387)
+        Me.CheckBox13.Name = "CheckBox13"
+        Me.CheckBox13.Size = New System.Drawing.Size(529, 25)
+        Me.CheckBox13.TabIndex = 83
+        Me.CheckBox13.Text = "Verificar calibraciòn y funcionamiento de valvulas de sanders de mezcla" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox13.UseVisualStyleBackColor = True
         '
         'CheckBox12
         '
@@ -102,9 +116,9 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox12.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox12.Location = New System.Drawing.Point(12, 356)
         Me.CheckBox12.Name = "CheckBox12"
-        Me.CheckBox12.Size = New System.Drawing.Size(529, 25)
-        Me.CheckBox12.TabIndex = 83
-        Me.CheckBox12.Text = "Verificar calibraciòn y funcionamiento de valvulas de sanders de mezcla" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox12.Size = New System.Drawing.Size(520, 25)
+        Me.CheckBox12.TabIndex = 82
+        Me.CheckBox12.Text = "Verificar calibraciòn y funcionamiento de valvulas de sanders de agua " & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox12.UseVisualStyleBackColor = True
         '
         'CheckBox11
@@ -114,9 +128,9 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox11.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox11.Location = New System.Drawing.Point(12, 325)
         Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(520, 25)
-        Me.CheckBox11.TabIndex = 82
-        Me.CheckBox11.Text = "Verificar calibraciòn y funcionamiento de valvulas de sanders de agua " & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox11.Size = New System.Drawing.Size(539, 25)
+        Me.CheckBox11.TabIndex = 81
+        Me.CheckBox11.Text = "Verificar estado de los empaques de agitadores (reinstalar si es necesario)" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox11.UseVisualStyleBackColor = True
         '
         'CheckBox10
@@ -126,9 +140,9 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox10.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox10.Location = New System.Drawing.Point(12, 294)
         Me.CheckBox10.Name = "CheckBox10"
-        Me.CheckBox10.Size = New System.Drawing.Size(539, 25)
-        Me.CheckBox10.TabIndex = 81
-        Me.CheckBox10.Text = "Verificar estado de los empaques de agitadores (reinstalar si es necesario)" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox10.Size = New System.Drawing.Size(317, 25)
+        Me.CheckBox10.TabIndex = 80
+        Me.CheckBox10.Text = "Inspeccionar cilindros y cable del formato" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox10.UseVisualStyleBackColor = True
         '
         'CheckBox9
@@ -138,9 +152,9 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox9.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox9.Location = New System.Drawing.Point(12, 263)
         Me.CheckBox9.Name = "CheckBox9"
-        Me.CheckBox9.Size = New System.Drawing.Size(317, 25)
-        Me.CheckBox9.TabIndex = 80
-        Me.CheckBox9.Text = "Inspeccionar cilindros y cable del formato" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox9.Size = New System.Drawing.Size(200, 25)
+        Me.CheckBox9.TabIndex = 79
+        Me.CheckBox9.Text = "Soltar rodillos de caucho" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox9.UseVisualStyleBackColor = True
         '
         'CheckBox8
@@ -150,23 +164,11 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox8.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox8.Location = New System.Drawing.Point(12, 232)
         Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(200, 25)
-        Me.CheckBox8.TabIndex = 79
-        Me.CheckBox8.Text = "Soltar rodillos de caucho" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
-        Me.CheckBox8.UseVisualStyleBackColor = True
-        '
-        'CheckBox7
-        '
-        Me.CheckBox7.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox7.Location = New System.Drawing.Point(12, 201)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(574, 25)
-        Me.CheckBox7.TabIndex = 78
-        Me.CheckBox7.Text = "Inspec. visualmente los rodillos de la maq. (reportar si hay prescencia de oxido)" &
+        Me.CheckBox8.Size = New System.Drawing.Size(574, 25)
+        Me.CheckBox8.TabIndex = 78
+        Me.CheckBox8.Text = "Inspec. visualmente los rodillos de la maq. (reportar si hay prescencia de oxido)" &
     "" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
-        Me.CheckBox7.UseVisualStyleBackColor = True
+        Me.CheckBox8.UseVisualStyleBackColor = True
         '
         'CheckBox6
         '
@@ -241,16 +243,28 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox1.Text = "Revisar y/o destapar lumbreras de la bomba Robuschi" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+        'CheckBox19
+        '
+        Me.CheckBox19.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox19.AutoSize = True
+        Me.CheckBox19.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox19.Location = New System.Drawing.Point(19, 189)
+        Me.CheckBox19.Name = "CheckBox19"
+        Me.CheckBox19.Size = New System.Drawing.Size(311, 25)
+        Me.CheckBox19.TabIndex = 89
+        Me.CheckBox19.Text = "Limpiza y lubricacion de barras thomson" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox19.UseVisualStyleBackColor = True
+        '
         'CheckBox18
         '
         Me.CheckBox18.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
         Me.CheckBox18.AutoSize = True
         Me.CheckBox18.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox18.Location = New System.Drawing.Point(19, 189)
+        Me.CheckBox18.Location = New System.Drawing.Point(19, 160)
         Me.CheckBox18.Name = "CheckBox18"
-        Me.CheckBox18.Size = New System.Drawing.Size(311, 25)
-        Me.CheckBox18.TabIndex = 89
-        Me.CheckBox18.Text = "Limpiza y lubricacion de barras thomson" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox18.Size = New System.Drawing.Size(407, 25)
+        Me.CheckBox18.TabIndex = 88
+        Me.CheckBox18.Text = "limpieza y cambio de boquillas sistema corte por agua" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox18.UseVisualStyleBackColor = True
         '
         'CheckBox17
@@ -258,11 +272,11 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox17.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
         Me.CheckBox17.AutoSize = True
         Me.CheckBox17.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox17.Location = New System.Drawing.Point(19, 160)
+        Me.CheckBox17.Location = New System.Drawing.Point(19, 129)
         Me.CheckBox17.Name = "CheckBox17"
-        Me.CheckBox17.Size = New System.Drawing.Size(407, 25)
-        Me.CheckBox17.TabIndex = 88
-        Me.CheckBox17.Text = "limpieza y cambio de boquillas sistema corte por agua" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox17.Size = New System.Drawing.Size(421, 25)
+        Me.CheckBox17.TabIndex = 87
+        Me.CheckBox17.Text = "Verificar limpieza de katchers y notificar al jefe de  turno" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox17.UseVisualStyleBackColor = True
         '
         'CheckBox16
@@ -270,11 +284,11 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox16.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
         Me.CheckBox16.AutoSize = True
         Me.CheckBox16.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox16.Location = New System.Drawing.Point(19, 129)
+        Me.CheckBox16.Location = New System.Drawing.Point(19, 98)
         Me.CheckBox16.Name = "CheckBox16"
-        Me.CheckBox16.Size = New System.Drawing.Size(421, 25)
-        Me.CheckBox16.TabIndex = 87
-        Me.CheckBox16.Text = "Verificar limpieza de katchers y notificar al jefe de  turno" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox16.Size = New System.Drawing.Size(419, 25)
+        Me.CheckBox16.TabIndex = 86
+        Me.CheckBox16.Text = "Revisar alineaciòn de las bandas (alinear si es necesario)" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox16.UseVisualStyleBackColor = True
         '
         'CheckBox15
@@ -282,11 +296,12 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox15.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
         Me.CheckBox15.AutoSize = True
         Me.CheckBox15.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox15.Location = New System.Drawing.Point(19, 98)
+        Me.CheckBox15.Location = New System.Drawing.Point(19, 46)
         Me.CheckBox15.Name = "CheckBox15"
-        Me.CheckBox15.Size = New System.Drawing.Size(419, 25)
-        Me.CheckBox15.TabIndex = 86
-        Me.CheckBox15.Text = "Revisar alineaciòn de las bandas (alinear si es necesario)" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox15.Size = New System.Drawing.Size(460, 46)
+        Me.CheckBox15.TabIndex = 85
+        Me.CheckBox15.Text = "Limpieza de transmicion de potencia de modulos de bandas y " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "reportar al jefe de " &
+    "turno para limpieza." & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox15.UseVisualStyleBackColor = True
         '
         'CheckBox14
@@ -294,43 +309,32 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox14.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
         Me.CheckBox14.AutoSize = True
         Me.CheckBox14.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox14.Location = New System.Drawing.Point(19, 46)
+        Me.CheckBox14.Location = New System.Drawing.Point(19, 15)
         Me.CheckBox14.Name = "CheckBox14"
-        Me.CheckBox14.Size = New System.Drawing.Size(460, 46)
-        Me.CheckBox14.TabIndex = 85
-        Me.CheckBox14.Text = "Limpieza de transmicion de potencia de modulos de bandas y " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "reportar al jefe de " &
-    "turno para limpieza." & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox14.Size = New System.Drawing.Size(606, 25)
+        Me.CheckBox14.TabIndex = 84
+        Me.CheckBox14.Text = "Inspec. estado y limpieza de los rodillos de la onduladora y reportar al jefe de " &
+    "turno" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox14.UseVisualStyleBackColor = True
         '
-        'CheckBox13
+        'CheckBox20
         '
-        Me.CheckBox13.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox13.Location = New System.Drawing.Point(19, 15)
-        Me.CheckBox13.Name = "CheckBox13"
-        Me.CheckBox13.Size = New System.Drawing.Size(606, 25)
-        Me.CheckBox13.TabIndex = 84
-        Me.CheckBox13.Text = "Inspec. estado y limpieza de los rodillos de la onduladora y reportar al jefe de " &
-    "turno" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
-        Me.CheckBox13.UseVisualStyleBackColor = True
-        '
-        'CheckBox19
-        '
-        Me.CheckBox19.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox19.AutoSize = True
-        Me.CheckBox19.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox19.Location = New System.Drawing.Point(19, 222)
-        Me.CheckBox19.Name = "CheckBox19"
-        Me.CheckBox19.Size = New System.Drawing.Size(255, 25)
-        Me.CheckBox19.TabIndex = 71
-        Me.CheckBox19.Text = "Revisar orugas de la onduladora" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
-        Me.CheckBox19.UseVisualStyleBackColor = True
+        Me.CheckBox20.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox20.AutoSize = True
+        Me.CheckBox20.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox20.Location = New System.Drawing.Point(19, 222)
+        Me.CheckBox20.Name = "CheckBox20"
+        Me.CheckBox20.Size = New System.Drawing.Size(255, 25)
+        Me.CheckBox20.TabIndex = 71
+        Me.CheckBox20.Text = "Revisar orugas de la onduladora" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox20.UseVisualStyleBackColor = True
         '
         'Panel2
         '
         Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel2.Controls.Add(Me.CheckBox19)
+        Me.Panel2.Controls.Add(Me.CheckBox24)
         Me.Panel2.Controls.Add(Me.CheckBox18)
         Me.Panel2.Controls.Add(Me.CheckBox23)
         Me.Panel2.Controls.Add(Me.CheckBox17)
@@ -340,23 +344,33 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.Panel2.Controls.Add(Me.CheckBox15)
         Me.Panel2.Controls.Add(Me.CheckBox20)
         Me.Panel2.Controls.Add(Me.CheckBox14)
-        Me.Panel2.Controls.Add(Me.CheckBox19)
-        Me.Panel2.Controls.Add(Me.CheckBox13)
         Me.Panel2.Location = New System.Drawing.Point(636, 189)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(638, 391)
         Me.Panel2.TabIndex = 6
+        '
+        'CheckBox24
+        '
+        Me.CheckBox24.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox24.AutoSize = True
+        Me.CheckBox24.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox24.Location = New System.Drawing.Point(19, 346)
+        Me.CheckBox24.Name = "CheckBox24"
+        Me.CheckBox24.Size = New System.Drawing.Size(515, 25)
+        Me.CheckBox24.TabIndex = 94
+        Me.CheckBox24.Text = "Inspeccionar estoperos de bombas de desechos corregir si es necesario" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox24.UseVisualStyleBackColor = True
         '
         'CheckBox23
         '
         Me.CheckBox23.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
         Me.CheckBox23.AutoSize = True
         Me.CheckBox23.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox23.Location = New System.Drawing.Point(19, 346)
+        Me.CheckBox23.Location = New System.Drawing.Point(19, 315)
         Me.CheckBox23.Name = "CheckBox23"
-        Me.CheckBox23.Size = New System.Drawing.Size(515, 25)
-        Me.CheckBox23.TabIndex = 94
-        Me.CheckBox23.Text = "Inspeccionar estoperos de bombas de desechos corregir si es necesario" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox23.Size = New System.Drawing.Size(256, 25)
+        Me.CheckBox23.TabIndex = 92
+        Me.CheckBox23.Text = "Limpieza chumaseras del molino" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox23.UseVisualStyleBackColor = True
         '
         'CheckBox22
@@ -364,11 +378,11 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox22.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
         Me.CheckBox22.AutoSize = True
         Me.CheckBox22.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox22.Location = New System.Drawing.Point(19, 315)
+        Me.CheckBox22.Location = New System.Drawing.Point(19, 284)
         Me.CheckBox22.Name = "CheckBox22"
-        Me.CheckBox22.Size = New System.Drawing.Size(256, 25)
-        Me.CheckBox22.TabIndex = 92
-        Me.CheckBox22.Text = "Limpieza chumaseras del molino" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox22.Size = New System.Drawing.Size(426, 25)
+        Me.CheckBox22.TabIndex = 91
+        Me.CheckBox22.Text = "Limpiar e inspeccionar empaques del molino de desechos" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox22.UseVisualStyleBackColor = True
         '
         'CheckBox21
@@ -376,40 +390,28 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.CheckBox21.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
         Me.CheckBox21.AutoSize = True
         Me.CheckBox21.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox21.Location = New System.Drawing.Point(19, 284)
+        Me.CheckBox21.Location = New System.Drawing.Point(19, 253)
         Me.CheckBox21.Name = "CheckBox21"
-        Me.CheckBox21.Size = New System.Drawing.Size(426, 25)
-        Me.CheckBox21.TabIndex = 91
-        Me.CheckBox21.Text = "Limpiar e inspeccionar empaques del molino de desechos" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox21.Size = New System.Drawing.Size(232, 25)
+        Me.CheckBox21.TabIndex = 90
+        Me.CheckBox21.Text = "Revisar fugas ductos de vacio" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
         Me.CheckBox21.UseVisualStyleBackColor = True
         '
-        'CheckBox20
+        'TextBox2
         '
-        Me.CheckBox20.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox20.AutoSize = True
-        Me.CheckBox20.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox20.Location = New System.Drawing.Point(19, 253)
-        Me.CheckBox20.Name = "CheckBox20"
-        Me.CheckBox20.Size = New System.Drawing.Size(232, 25)
-        Me.CheckBox20.TabIndex = 90
-        Me.CheckBox20.Text = "Revisar fugas ductos de vacio" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
-        Me.CheckBox20.UseVisualStyleBackColor = True
+        Me.TextBox2.Enabled = False
+        Me.TextBox2.Location = New System.Drawing.Point(175, 54)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(77, 23)
+        Me.TextBox2.TabIndex = 41
         '
-        'TextBox1
+        'TextBox3
         '
-        Me.TextBox1.Enabled = False
-        Me.TextBox1.Location = New System.Drawing.Point(175, 54)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(77, 23)
-        Me.TextBox1.TabIndex = 41
-        '
-        'TextBox54
-        '
-        Me.TextBox54.Enabled = False
-        Me.TextBox54.Location = New System.Drawing.Point(266, 54)
-        Me.TextBox54.Name = "TextBox54"
-        Me.TextBox54.Size = New System.Drawing.Size(80, 23)
-        Me.TextBox54.TabIndex = 42
+        Me.TextBox3.Enabled = False
+        Me.TextBox3.Location = New System.Drawing.Point(266, 54)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(80, 23)
+        Me.TextBox3.TabIndex = 42
         '
         'Label34
         '
@@ -490,16 +492,16 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.Label37.TabIndex = 48
         Me.Label37.Text = "INSERTAR"
         '
-        'TextBox52
+        'TextBox1
         '
-        Me.TextBox52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox52.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.TextBox52.Location = New System.Drawing.Point(636, 647)
-        Me.TextBox52.Multiline = True
-        Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox52.Size = New System.Drawing.Size(638, 77)
-        Me.TextBox52.TabIndex = 49
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.TextBox1.Location = New System.Drawing.Point(636, 647)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.TextBox1.Size = New System.Drawing.Size(638, 77)
+        Me.TextBox1.TabIndex = 49
         '
         'Label3
         '
@@ -511,6 +513,18 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.Label3.TabIndex = 50
         Me.Label3.Text = "Observaciones adicionales"
         '
+        'CheckBox7
+        '
+        Me.CheckBox7.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
+        Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.CheckBox7.Location = New System.Drawing.Point(12, 201)
+        Me.CheckBox7.Name = "CheckBox7"
+        Me.CheckBox7.Size = New System.Drawing.Size(424, 25)
+        Me.CheckBox7.TabIndex = 84
+        Me.CheckBox7.Text = "Girar manualmente la bomba del tanque nivel constante" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9)
+        Me.CheckBox7.UseVisualStyleBackColor = True
+        '
         'FormMecanicoPuntosVerificacion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -519,7 +533,7 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(1284, 749)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox52)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label37)
         Me.Controls.Add(Me.Label36)
         Me.Controls.Add(Me.Button3)
@@ -527,8 +541,8 @@ Partial Class FormMecanicoPuntosVerificacion
         Me.Controls.Add(Me.Label35)
         Me.Controls.Add(Me.Label34)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox54)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label1)
@@ -547,7 +561,7 @@ Partial Class FormMecanicoPuntosVerificacion
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents TextBox54 As TextBox
+    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label34 As Label
     Friend WithEvents Label35 As Label
     Friend WithEvents Button1 As Button
@@ -555,6 +569,7 @@ Partial Class FormMecanicoPuntosVerificacion
     Friend WithEvents Button3 As Button
     Friend WithEvents Label36 As Label
     Friend WithEvents Label37 As Label
+    Friend WithEvents CheckBox20 As CheckBox
     Friend WithEvents CheckBox19 As CheckBox
     Friend WithEvents CheckBox18 As CheckBox
     Friend WithEvents CheckBox17 As CheckBox
@@ -567,18 +582,18 @@ Partial Class FormMecanicoPuntosVerificacion
     Friend WithEvents CheckBox10 As CheckBox
     Friend WithEvents CheckBox9 As CheckBox
     Friend WithEvents CheckBox8 As CheckBox
-    Friend WithEvents CheckBox7 As CheckBox
     Friend WithEvents CheckBox6 As CheckBox
     Friend WithEvents CheckBox5 As CheckBox
     Friend WithEvents CheckBox4 As CheckBox
     Friend WithEvents CheckBox3 As CheckBox
     Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents CheckBox24 As CheckBox
     Friend WithEvents CheckBox23 As CheckBox
     Friend WithEvents CheckBox22 As CheckBox
     Friend WithEvents CheckBox21 As CheckBox
-    Friend WithEvents CheckBox20 As CheckBox
-    Friend WithEvents TextBox52 As TextBox
-    Friend WithEvents Label3 As Label
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents CheckBox7 As CheckBox
 End Class

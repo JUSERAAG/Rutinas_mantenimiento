@@ -16,15 +16,15 @@ Public Class FormMecanicoPuntosVerificacion
         Me.WindowState = FormWindowState.Maximized ' Maximizar ventana
         Dim fechaActual As DateTime = DateTime.Now.Date
         Dim horaActual As TimeSpan = DateTime.Now.TimeOfDay
-        TextBox1.Text = fechaActual.ToString("yyyy-MM-dd")
-        TextBox54.Text = horaActual.ToString("hh\:mm\:ss")
+        TextBox2.Text = fechaActual.ToString("yyyy-MM-dd")
+        TextBox3.Text = horaActual.ToString("hh\:mm\:ss")
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Using conexion As New SqlConnection(conn)
             Try
                 conexion.Open()
-                Dim consulta As String = "INSERT INTO dbo.Mecanico_NT VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41,@VAR42,@VAR43,@VAR44,@VAR45,@VAR46,@VAR47,@VAR48,@VAR49,@VAR50,@VAR51,@VAR52)"
+                Dim consulta As String = "INSERT INTO dbo.Mecanico_Puntos_Verificacion VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25)"
                 Using comando As New SqlCommand(consulta, conexion)
                     ' agregar parámetros
                     comando.Parameters.AddWithValue("@FECHA", DateTime.Now.Date)
@@ -52,7 +52,8 @@ Public Class FormMecanicoPuntosVerificacion
                     comando.Parameters.AddWithValue("@VAR21", If(CheckBox21.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR22", If(CheckBox22.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR23", If(CheckBox23.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR52", textBox1.Text)
+                    comando.Parameters.AddWithValue("@VAR24", If(CheckBox24.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR25", TextBox1.Text)
                     ' ejecutar la consulta
                     comando.ExecuteNonQuery()
                     MessageBox.Show("datos insertados correctamente.")
@@ -90,6 +91,7 @@ Public Class FormMecanicoPuntosVerificacion
         CheckBox21.Checked = False
         CheckBox22.Checked = False
         CheckBox23.Checked = False
+        CheckBox24.Checked = False
     End Sub
 
 End Class

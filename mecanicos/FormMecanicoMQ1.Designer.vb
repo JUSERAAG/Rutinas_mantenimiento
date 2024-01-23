@@ -95,8 +95,6 @@ Partial Class FormMecanicoMQ1
         Me.CheckBox51 = New System.Windows.Forms.CheckBox()
         Me.CheckBox48 = New System.Windows.Forms.CheckBox()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.CheckBox59 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox58 = New System.Windows.Forms.CheckBox()
         Me.CheckBox57 = New System.Windows.Forms.CheckBox()
         Me.CheckBox56 = New System.Windows.Forms.CheckBox()
         Me.CheckBox55 = New System.Windows.Forms.CheckBox()
@@ -988,8 +986,6 @@ Partial Class FormMecanicoMQ1
         'Panel5
         '
         Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel5.Controls.Add(Me.CheckBox59)
-        Me.Panel5.Controls.Add(Me.CheckBox58)
         Me.Panel5.Controls.Add(Me.CheckBox57)
         Me.Panel5.Controls.Add(Me.CheckBox56)
         Me.Panel5.Controls.Add(Me.CheckBox55)
@@ -1001,30 +997,6 @@ Partial Class FormMecanicoMQ1
         Me.Panel5.TabIndex = 159
         Me.Panel5.Visible = False
         '
-        'CheckBox59
-        '
-        Me.CheckBox59.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox59.AutoSize = True
-        Me.CheckBox59.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox59.Location = New System.Drawing.Point(10, 167)
-        Me.CheckBox59.Name = "CheckBox59"
-        Me.CheckBox59.Size = New System.Drawing.Size(496, 25)
-        Me.CheckBox59.TabIndex = 203
-        Me.CheckBox59.Text = "Inspec. cilind. de carro viajero (sin fugas, tot. recorrido, sin holguras)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.CheckBox59.UseVisualStyleBackColor = True
-        '
-        'CheckBox58
-        '
-        Me.CheckBox58.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
-        Me.CheckBox58.AutoSize = True
-        Me.CheckBox58.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.CheckBox58.Location = New System.Drawing.Point(10, 136)
-        Me.CheckBox58.Name = "CheckBox58"
-        Me.CheckBox58.Size = New System.Drawing.Size(280, 25)
-        Me.CheckBox58.TabIndex = 201
-        Me.CheckBox58.Text = "Registrar ciclo desmoldeadora (SEG)"
-        Me.CheckBox58.UseVisualStyleBackColor = True
-        '
         'CheckBox57
         '
         Me.CheckBox57.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress
@@ -1032,9 +1004,9 @@ Partial Class FormMecanicoMQ1
         Me.CheckBox57.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox57.Location = New System.Drawing.Point(10, 105)
         Me.CheckBox57.Name = "CheckBox57"
-        Me.CheckBox57.Size = New System.Drawing.Size(494, 25)
-        Me.CheckBox57.TabIndex = 199
-        Me.CheckBox57.Text = "Verif. estado de los cables de alimentaciòn de los carros apiladores "
+        Me.CheckBox57.Size = New System.Drawing.Size(496, 25)
+        Me.CheckBox57.TabIndex = 203
+        Me.CheckBox57.Text = "Inspec. cilind. de carro viajero (sin fugas, tot. recorrido, sin holguras)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.CheckBox57.UseVisualStyleBackColor = True
         '
         'CheckBox56
@@ -1044,9 +1016,9 @@ Partial Class FormMecanicoMQ1
         Me.CheckBox56.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox56.Location = New System.Drawing.Point(10, 74)
         Me.CheckBox56.Name = "CheckBox56"
-        Me.CheckBox56.Size = New System.Drawing.Size(374, 25)
-        Me.CheckBox56.TabIndex = 197
-        Me.CheckBox56.Text = "Presion hidrualica de mesas atlas (psi)onduladora"
+        Me.CheckBox56.Size = New System.Drawing.Size(280, 25)
+        Me.CheckBox56.TabIndex = 201
+        Me.CheckBox56.Text = "Registrar ciclo desmoldeadora (SEG)"
         Me.CheckBox56.UseVisualStyleBackColor = True
         '
         'CheckBox55
@@ -1189,8 +1161,6 @@ Partial Class FormMecanicoMQ1
     Friend WithEvents CheckBox52 As CheckBox
     Friend WithEvents CheckBox51 As CheckBox
     Friend WithEvents Panel5 As Panel
-    Friend WithEvents CheckBox59 As CheckBox
-    Friend WithEvents CheckBox58 As CheckBox
     Friend WithEvents CheckBox57 As CheckBox
     Friend WithEvents CheckBox56 As CheckBox
     Friend WithEvents CheckBox55 As CheckBox

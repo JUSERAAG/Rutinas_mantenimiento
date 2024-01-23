@@ -24,7 +24,7 @@ Public Class FormMecanicoMQ1
         Using conexion As New SqlConnection(conn)
             Try
                 conexion.Open()
-                Dim consulta As String = "INSERT INTO dbo.Mecanico_NT VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41,@VAR42,@VAR43,@VAR44,@VAR45,@VAR46,@VAR47,@VAR48,@VAR49,@VAR50,@VAR51,@VAR52)"
+                Dim consulta As String = "INSERT INTO dbo.Mecanico_MQ1 VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41,@VAR42,@VAR43,@VAR44,@VAR45,@VAR46,@VAR47,@VAR48,@VAR49,@VAR50,@VAR51,@VAR52,@VAR53,@VAR54,@VAR55,@VAR56,@VAR57,@VAR58)"
                 Using comando As New SqlCommand(consulta, conexion)
                     ' agregar parámetros
                     comando.Parameters.AddWithValue("@FECHA", DateTime.Now.Date)
@@ -80,7 +80,13 @@ Public Class FormMecanicoMQ1
                     comando.Parameters.AddWithValue("@VAR49", If(CheckBox49.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR50", If(CheckBox50.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR51", If(CheckBox51.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR52", TextBox1.Text)
+                    comando.Parameters.AddWithValue("@VAR52", If(CheckBox52.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR53", If(CheckBox53.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR54", If(CheckBox54.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR55", If(CheckBox55.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR56", If(CheckBox56.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR57", If(CheckBox57.Checked, 1, 0))
+                    comando.Parameters.AddWithValue("@VAR58", TextBox1.Text)
                     ' ejecutar la consulta
                     comando.ExecuteNonQuery()
                     MessageBox.Show("datos insertados correctamente.")
@@ -95,62 +101,63 @@ Public Class FormMecanicoMQ1
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        'CheckBox1.Checked = False
-        'CheckBox2.Checked = False
-        'CheckBox3.Checked = False
-        'CheckBox4.Checked = False
-        'CheckBox5.Checked = False
-        'CheckBox6.Checked = False
-        'CheckBox7.Checked = False
-        'CheckBox8.Checked = False
-        'CheckBox9.Checked = False
-        'CheckBox10.Checked = False
-        'CheckBox11.Checked = False
-        'CheckBox12.Checked = False
-        'CheckBox13.Checked = False
-        'CheckBox14.Checked = False
-        'CheckBox15.Checked = False
-        'CheckBox16.Checked = False
-        'CheckBox17.Checked = False
-        'CheckBox18.Checked = False
-        'CheckBox19.Checked = False
-        'CheckBox20.Checked = False
-        'CheckBox20.Checked = False
-        'CheckBox22.Checked = False
-        'CheckBox23.Checked = False
-        'CheckBox24.Checked = False
-        'CheckBox25.Checked = False
-        'CheckBox26.Checked = False
-        'CheckBox27.Checked = False
-        'CheckBox28.Checked = False
-        'CheckBox29.Checked = False
-        'CheckBox30.Checked = False
-        'CheckBox31.Checked = False
-        'CheckBox32.Checked = False
-        'CheckBox33.Checked = False
-        'CheckBox34.Checked = False
-        'CheckBox35.Checked = False
-        'CheckBox36.Checked = False
-        'CheckBox37.Checked = False
-        'CheckBox38.Checked = False
-        'CheckBox39.Checked = False
-        'CheckBox40.Checked = False
-        'CheckBox41.Checked = False
-        'CheckBox42.Checked = False
-        'CheckBox43.Checked = False
-        'CheckBox44.Checked = False
-        'CheckBox45.Checked = False
-        'CheckBox46.Checked = False
-        'CheckBox47.Checked = False
-        'CheckBox48.Checked = False
-        'CheckBox49.Checked = False
-        'CheckBox50.Checked = False
-        'CheckBox51.Checked = False
-        'CheckBox52.Checked = False
-        'CheckBox53.Checked = False
-        'CheckBox54.Checked = False
-        'CheckBox55.Checked = False
-        'CheckBox56.Checked = False
+        CheckBox1.Checked = False
+        CheckBox2.Checked = False
+        CheckBox3.Checked = False
+        CheckBox4.Checked = False
+        CheckBox5.Checked = False
+        CheckBox6.Checked = False
+        CheckBox7.Checked = False
+        CheckBox8.Checked = False
+        CheckBox9.Checked = False
+        CheckBox10.Checked = False
+        CheckBox11.Checked = False
+        CheckBox12.Checked = False
+        CheckBox13.Checked = False
+        CheckBox14.Checked = False
+        CheckBox15.Checked = False
+        CheckBox16.Checked = False
+        CheckBox17.Checked = False
+        CheckBox18.Checked = False
+        CheckBox19.Checked = False
+        CheckBox20.Checked = False
+        CheckBox21.Checked = False
+        CheckBox22.Checked = False
+        CheckBox23.Checked = False
+        CheckBox24.Checked = False
+        CheckBox25.Checked = False
+        CheckBox26.Checked = False
+        CheckBox27.Checked = False
+        CheckBox28.Checked = False
+        CheckBox29.Checked = False
+        CheckBox30.Checked = False
+        CheckBox31.Checked = False
+        CheckBox32.Checked = False
+        CheckBox33.Checked = False
+        CheckBox34.Checked = False
+        CheckBox35.Checked = False
+        CheckBox36.Checked = False
+        CheckBox37.Checked = False
+        CheckBox38.Checked = False
+        CheckBox39.Checked = False
+        CheckBox40.Checked = False
+        CheckBox41.Checked = False
+        CheckBox42.Checked = False
+        CheckBox43.Checked = False
+        CheckBox44.Checked = False
+        CheckBox45.Checked = False
+        CheckBox46.Checked = False
+        CheckBox47.Checked = False
+        CheckBox48.Checked = False
+        CheckBox49.Checked = False
+        CheckBox50.Checked = False
+        CheckBox51.Checked = False
+        CheckBox52.Checked = False
+        CheckBox53.Checked = False
+        CheckBox54.Checked = False
+        CheckBox55.Checked = False
+        CheckBox56.Checked = False
+        CheckBox57.Checked = False
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox100.SelectedIndexChanged
