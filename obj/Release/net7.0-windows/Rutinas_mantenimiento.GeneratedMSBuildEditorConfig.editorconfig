@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Rutinas_mantenimiento
-build_property.ProjectDir = C:\Users\dmramirez\OneDrive - Empresa\Documentos\PROYECTOS\Rutinas_mantenimiento\
+build_property.ProjectDir = C:\Users\juser\OneDrive\Escritorio\Rutinas_mantenimiento\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

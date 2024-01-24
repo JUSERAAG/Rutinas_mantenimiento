@@ -75,7 +75,7 @@ Public Class FormElectricoNT
                     comando.Parameters.AddWithValue("@VAR31", Convert.ToSingle(TextBox31.Text))
                     comando.Parameters.AddWithValue("@VAR32", Convert.ToSingle(TextBox32.Text))
                     comando.Parameters.AddWithValue("@VAR33", Convert.ToSingle(TextBox33.Text))
-                    comando.Parameters.AddWithValue("@VAR34", TextBox35.Text)
+                    comando.Parameters.AddWithValue("@VAR34", TextBox34.Text)
                     ' Ejecutar la consulta
                     comando.ExecuteNonQuery()
                     MessageBox.Show("Datos insertados correctamente.")

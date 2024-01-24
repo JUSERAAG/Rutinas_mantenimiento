@@ -23,918 +23,943 @@ Partial Class FormElectricoCaldAut
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormElectricoCaldAut))
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox34 = New System.Windows.Forms.TextBox()
-        Me.TextBox35 = New System.Windows.Forms.TextBox()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.Label35 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.Label39 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
-        Me.TextBox32 = New System.Windows.Forms.TextBox()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
-        Me.TextBox27 = New System.Windows.Forms.TextBox()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.TextBox33 = New System.Windows.Forms.TextBox()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        Me.Panel3.SuspendLayout()
-        Me.Panel4.SuspendLayout()
-        Me.Panel6.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        Me.SuspendLayout()
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI Symbol", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(485, 28)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(400, 32)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "ELÉCTRICO CALDERA AUTOCLAVE"
-        '
-        'Panel1
-        '
-        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel1.Controls.Add(Me.TextBox4)
-        Me.Panel1.Controls.Add(Me.TextBox3)
-        Me.Panel1.Controls.Add(Me.TextBox2)
-        Me.Panel1.Controls.Add(Me.TextBox1)
-        Me.Panel1.Controls.Add(Me.Label9)
-        Me.Panel1.Controls.Add(Me.Label8)
-        Me.Panel1.Location = New System.Drawing.Point(39, 162)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(361, 104)
-        Me.Panel1.TabIndex = 2
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox4.Location = New System.Drawing.Point(254, 54)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.PlaceholderText = "Temperatura"
-        Me.TextBox4.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox4.TabIndex = 19
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox3.Location = New System.Drawing.Point(173, 54)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.PlaceholderText = "Corriente"
-        Me.TextBox3.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox3.TabIndex = 18
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox2.Location = New System.Drawing.Point(254, 20)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.PlaceholderText = "Temperatura"
-        Me.TextBox2.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox2.TabIndex = 17
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.Location = New System.Drawing.Point(173, 20)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.PlaceholderText = "Corriente"
-        Me.TextBox1.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox1.TabIndex = 16
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label9.Location = New System.Drawing.Point(8, 57)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(85, 21)
-        Me.Label9.TabIndex = 14
-        Me.Label9.Text = "INDUCIDO"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label8.Location = New System.Drawing.Point(8, 18)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(81, 21)
-        Me.Label8.TabIndex = 13
-        Me.Label8.Text = "FORZADO"
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox5.Location = New System.Drawing.Point(173, 20)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.PlaceholderText = "Corriente"
-        Me.TextBox5.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox5.TabIndex = 20
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox6.Location = New System.Drawing.Point(254, 20)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.PlaceholderText = "Temperatura"
-        Me.TextBox6.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox6.TabIndex = 21
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(39, 144)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(132, 21)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "VENTILADORES"
-        '
-        'TextBox34
-        '
-        Me.TextBox34.Enabled = False
-        Me.TextBox34.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox34.Location = New System.Drawing.Point(175, 54)
-        Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New System.Drawing.Size(97, 29)
-        Me.TextBox34.TabIndex = 41
-        '
-        'TextBox35
-        '
-        Me.TextBox35.Enabled = False
-        Me.TextBox35.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox35.Location = New System.Drawing.Point(278, 54)
-        Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New System.Drawing.Size(100, 29)
-        Me.TextBox35.TabIndex = 42
-        '
-        'Label34
-        '
-        Me.Label34.AutoSize = True
-        Me.Label34.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label34.Location = New System.Drawing.Point(175, 32)
-        Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(55, 21)
-        Me.Label34.TabIndex = 37
-        Me.Label34.Text = "Fecha"
-        '
-        'Label35
-        '
-        Me.Label35.AutoSize = True
-        Me.Label35.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label35.Location = New System.Drawing.Point(278, 32)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(48, 21)
-        Me.Label35.TabIndex = 43
-        Me.Label35.Text = "Hora"
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button1.ForeColor = System.Drawing.Color.Transparent
-        Me.Button1.Location = New System.Drawing.Point(1127, 572)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(81, 79)
-        Me.Button1.TabIndex = 44
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.ForeColor = System.Drawing.Color.Transparent
-        Me.Button2.Location = New System.Drawing.Point(30, 19)
-        Me.Button2.Name = "Button2"
-        Me.Button2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button2.Size = New System.Drawing.Size(107, 65)
-        Me.Button2.TabIndex = 45
-        Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
-        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.Location = New System.Drawing.Point(1146, 27)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(58, 48)
-        Me.Button3.TabIndex = 46
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label36.Location = New System.Drawing.Point(1146, 78)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(69, 17)
-        Me.Label36.TabIndex = 47
-        Me.Label36.Text = "RELLENAR"
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label37.Location = New System.Drawing.Point(1140, 654)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(68, 17)
-        Me.Label37.TabIndex = 48
-        Me.Label37.Text = "INSERTAR"
-        '
-        'Button4
-        '
-        Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
-        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button4.Location = New System.Drawing.Point(1063, 27)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(58, 48)
-        Me.Button4.TabIndex = 49
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label38.Location = New System.Drawing.Point(1061, 78)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(53, 17)
-        Me.Label38.TabIndex = 50
-        Me.Label38.Text = "EDITAR"
-        '
-        'Label39
-        '
-        Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label39.Location = New System.Drawing.Point(977, 78)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(70, 17)
-        Me.Label39.TabIndex = 52
-        Me.Label39.Text = "GUARDAR"
-        '
-        'Button5
-        '
-        Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
-        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button5.Location = New System.Drawing.Point(977, 27)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(58, 48)
-        Me.Button5.TabIndex = 51
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(443, 144)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(154, 21)
-        Me.Label3.TabIndex = 53
-        Me.Label3.Text = "MOTORES BOMBA"
-        '
-        'Panel2
-        '
-        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel2.Controls.Add(Me.Label10)
-        Me.Panel2.Controls.Add(Me.TextBox10)
-        Me.Panel2.Controls.Add(Me.TextBox5)
-        Me.Panel2.Controls.Add(Me.TextBox6)
-        Me.Panel2.Controls.Add(Me.TextBox9)
-        Me.Panel2.Controls.Add(Me.TextBox8)
-        Me.Panel2.Controls.Add(Me.TextBox7)
-        Me.Panel2.Controls.Add(Me.Label5)
-        Me.Panel2.Controls.Add(Me.Label6)
-        Me.Panel2.Location = New System.Drawing.Point(443, 162)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(361, 144)
-        Me.Panel2.TabIndex = 54
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label10.Location = New System.Drawing.Point(8, 92)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(155, 21)
-        Me.Label10.TabIndex = 22
-        Me.Label10.Text = "BOMBA SUMERGIBLE"
-        '
-        'TextBox10
-        '
-        Me.TextBox10.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox10.Location = New System.Drawing.Point(254, 88)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.PlaceholderText = "Temperatura"
-        Me.TextBox10.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox10.TabIndex = 19
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox9.Location = New System.Drawing.Point(173, 88)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.PlaceholderText = "Corriente"
-        Me.TextBox9.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox9.TabIndex = 18
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox8.Location = New System.Drawing.Point(254, 54)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.PlaceholderText = "Temperatura"
-        Me.TextBox8.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox8.TabIndex = 17
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox7.Location = New System.Drawing.Point(173, 54)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.PlaceholderText = "Corriente"
-        Me.TextBox7.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox7.TabIndex = 16
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(8, 57)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(138, 21)
-        Me.Label5.TabIndex = 14
-        Me.Label5.Text = "MOTOR PQ. AGUA"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label6.Location = New System.Drawing.Point(8, 18)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(137, 21)
-        Me.Label6.TabIndex = 13
-        Me.Label6.Text = "MOTOR GR. AGUA"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label7.Location = New System.Drawing.Point(847, 144)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(129, 21)
-        Me.Label7.TabIndex = 55
-        Me.Label7.Text = "CARRROS AUT."
-        '
-        'Panel3
-        '
-        Me.Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel3.Controls.Add(Me.TextBox14)
-        Me.Panel3.Controls.Add(Me.TextBox13)
-        Me.Panel3.Controls.Add(Me.TextBox12)
-        Me.Panel3.Controls.Add(Me.TextBox11)
-        Me.Panel3.Controls.Add(Me.Label12)
-        Me.Panel3.Controls.Add(Me.Label13)
-        Me.Panel3.Location = New System.Drawing.Point(847, 162)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(361, 104)
-        Me.Panel3.TabIndex = 56
-        '
-        'TextBox14
-        '
-        Me.TextBox14.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox14.Location = New System.Drawing.Point(254, 54)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.PlaceholderText = "Temperatura"
-        Me.TextBox14.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox14.TabIndex = 19
-        '
-        'TextBox13
-        '
-        Me.TextBox13.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox13.Location = New System.Drawing.Point(173, 54)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.PlaceholderText = "Corriente"
-        Me.TextBox13.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox13.TabIndex = 18
-        '
-        'TextBox12
-        '
-        Me.TextBox12.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox12.Location = New System.Drawing.Point(254, 20)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.PlaceholderText = "Temperatura"
-        Me.TextBox12.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox12.TabIndex = 17
-        '
-        'TextBox11
-        '
-        Me.TextBox11.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox11.Location = New System.Drawing.Point(173, 20)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.PlaceholderText = "Corriente"
-        Me.TextBox11.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox11.TabIndex = 16
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label12.Location = New System.Drawing.Point(8, 57)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(109, 21)
-        Me.Label12.TabIndex = 14
-        Me.Label12.Text = "AUTOCLAVE 2"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label13.Location = New System.Drawing.Point(8, 18)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(109, 21)
-        Me.Label13.TabIndex = 13
-        Me.Label13.Text = "AUTOCLAVE 1"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(443, 317)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(178, 21)
-        Me.Label4.TabIndex = 57
-        Me.Label4.Text = "BOMBAS TRANSBASE"
-        '
-        'Panel4
-        '
-        Me.Panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel4.Controls.Add(Me.TextBox19)
-        Me.Panel4.Controls.Add(Me.Label27)
-        Me.Panel4.Controls.Add(Me.TextBox20)
-        Me.Panel4.Controls.Add(Me.TextBox18)
-        Me.Panel4.Controls.Add(Me.Label28)
-        Me.Panel4.Controls.Add(Me.TextBox17)
-        Me.Panel4.Controls.Add(Me.Label24)
-        Me.Panel4.Controls.Add(Me.TextBox16)
-        Me.Panel4.Controls.Add(Me.TextBox15)
-        Me.Panel4.Location = New System.Drawing.Point(39, 298)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(361, 157)
-        Me.Panel4.TabIndex = 58
-        '
-        'TextBox19
-        '
-        Me.TextBox19.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox19.Location = New System.Drawing.Point(173, 95)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.PlaceholderText = "Corriente"
-        Me.TextBox19.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox19.TabIndex = 16
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label27.Location = New System.Drawing.Point(8, 62)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(132, 21)
-        Me.Label27.TabIndex = 14
-        Me.Label27.Text = "DOSIFICADORA 2"
-        '
-        'TextBox20
-        '
-        Me.TextBox20.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox20.Location = New System.Drawing.Point(254, 95)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.PlaceholderText = "Temperatura"
-        Me.TextBox20.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox20.TabIndex = 17
-        '
-        'TextBox18
-        '
-        Me.TextBox18.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox18.Location = New System.Drawing.Point(254, 54)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.PlaceholderText = "Temperatura"
-        Me.TextBox18.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox18.TabIndex = 19
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label28.Location = New System.Drawing.Point(8, 23)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(132, 21)
-        Me.Label28.TabIndex = 13
-        Me.Label28.Text = "DOSIFICADORA 1"
-        '
-        'TextBox17
-        '
-        Me.TextBox17.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox17.Location = New System.Drawing.Point(173, 54)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.PlaceholderText = "Corriente"
-        Me.TextBox17.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox17.TabIndex = 18
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label24.Location = New System.Drawing.Point(8, 98)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(142, 21)
-        Me.Label24.TabIndex = 13
-        Me.Label24.Text = "BOMBA COMEDOR"
-        '
-        'TextBox16
-        '
-        Me.TextBox16.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox16.Location = New System.Drawing.Point(254, 20)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.PlaceholderText = "Temperatura"
-        Me.TextBox16.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox16.TabIndex = 17
-        '
-        'TextBox15
-        '
-        Me.TextBox15.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox15.Location = New System.Drawing.Point(173, 20)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.PlaceholderText = "Corriente"
-        Me.TextBox15.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox15.TabIndex = 16
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label14.Location = New System.Drawing.Point(8, 57)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(105, 21)
-        Me.Label14.TabIndex = 14
-        Me.Label14.Text = "TRANSBASE 2"
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label15.Location = New System.Drawing.Point(8, 18)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(105, 21)
-        Me.Label15.TabIndex = 13
-        Me.Label15.Text = "TRANSBASE 1"
-        '
-        'TextBox30
-        '
-        Me.TextBox30.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox30.Location = New System.Drawing.Point(254, 77)
-        Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.PlaceholderText = "Temperatura"
-        Me.TextBox30.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox30.TabIndex = 19
-        '
-        'TextBox29
-        '
-        Me.TextBox29.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox29.Location = New System.Drawing.Point(173, 77)
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.PlaceholderText = "Corriente"
-        Me.TextBox29.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox29.TabIndex = 18
-        '
-        'TextBox32
-        '
-        Me.TextBox32.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox32.Location = New System.Drawing.Point(254, 114)
-        Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.PlaceholderText = "Temperatura"
-        Me.TextBox32.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox32.TabIndex = 17
-        '
-        'TextBox31
-        '
-        Me.TextBox31.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox31.Location = New System.Drawing.Point(173, 114)
-        Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.PlaceholderText = "Corriente"
-        Me.TextBox31.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox31.TabIndex = 16
-        '
-        'TextBox27
-        '
-        Me.TextBox27.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox27.Location = New System.Drawing.Point(173, 43)
-        Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.PlaceholderText = "Corriente"
-        Me.TextBox27.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox27.TabIndex = 26
-        '
-        'TextBox28
-        '
-        Me.TextBox28.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox28.Location = New System.Drawing.Point(254, 43)
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.PlaceholderText = "Temperatura"
-        Me.TextBox28.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox28.TabIndex = 27
-        '
-        'TextBox25
-        '
-        Me.TextBox25.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox25.Location = New System.Drawing.Point(173, 9)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.PlaceholderText = "Corriente"
-        Me.TextBox25.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox25.TabIndex = 23
-        '
-        'TextBox26
-        '
-        Me.TextBox26.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox26.Location = New System.Drawing.Point(254, 9)
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.PlaceholderText = "Temperatura"
-        Me.TextBox26.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox26.TabIndex = 24
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label16.Location = New System.Drawing.Point(8, 122)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(137, 21)
-        Me.Label16.TabIndex = 20
-        Me.Label16.Text = "TRANSPORTADOR"
-        '
-        'TextBox23
-        '
-        Me.TextBox23.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox23.Location = New System.Drawing.Point(173, 54)
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.PlaceholderText = "Corriente"
-        Me.TextBox23.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox23.TabIndex = 20
-        '
-        'TextBox24
-        '
-        Me.TextBox24.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox24.Location = New System.Drawing.Point(254, 54)
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.PlaceholderText = "Temperatura"
-        Me.TextBox24.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox24.TabIndex = 21
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label17.Location = New System.Drawing.Point(9, 85)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(75, 21)
-        Me.Label17.TabIndex = 14
-        Me.Label17.Text = "PARRILLA"
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label18.Location = New System.Drawing.Point(9, 46)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(151, 21)
-        Me.Label18.TabIndex = 13
-        Me.Label18.Text = "ELEVADOR CARBÓN"
-        '
-        'TextBox22
-        '
-        Me.TextBox22.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox22.Location = New System.Drawing.Point(254, 12)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.PlaceholderText = "Temperatura"
-        Me.TextBox22.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox22.TabIndex = 19
-        '
-        'TextBox21
-        '
-        Me.TextBox21.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox21.Location = New System.Drawing.Point(173, 12)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.PlaceholderText = "Corriente"
-        Me.TextBox21.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox21.TabIndex = 18
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label22.Location = New System.Drawing.Point(847, 285)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(66, 21)
-        Me.Label22.TabIndex = 61
-        Me.Label22.Text = "OTROS"
-        '
-        'Panel6
-        '
-        Me.Panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel6.Controls.Add(Me.TextBox32)
-        Me.Panel6.Controls.Add(Me.Label23)
-        Me.Panel6.Controls.Add(Me.TextBox33)
-        Me.Panel6.Controls.Add(Me.TextBox30)
-        Me.Panel6.Controls.Add(Me.Label18)
-        Me.Panel6.Controls.Add(Me.Label17)
-        Me.Panel6.Controls.Add(Me.TextBox31)
-        Me.Panel6.Controls.Add(Me.Label25)
-        Me.Panel6.Controls.Add(Me.TextBox27)
-        Me.Panel6.Controls.Add(Me.TextBox28)
-        Me.Panel6.Controls.Add(Me.TextBox29)
-        Me.Panel6.Controls.Add(Me.Label16)
-        Me.Panel6.Controls.Add(Me.TextBox26)
-        Me.Panel6.Controls.Add(Me.TextBox25)
-        Me.Panel6.Location = New System.Drawing.Point(847, 303)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(361, 202)
-        Me.Panel6.TabIndex = 62
-        '
-        'Label23
-        '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label23.Location = New System.Drawing.Point(8, 17)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(85, 21)
-        Me.Label23.TabIndex = 14
-        Me.Label23.Text = "AGITADOR"
-        '
-        'TextBox33
-        '
-        Me.TextBox33.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox33.Location = New System.Drawing.Point(172, 154)
-        Me.TextBox33.MaxLength = 9
-        Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(75, 29)
-        Me.TextBox33.TabIndex = 21
-        '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label25.Location = New System.Drawing.Point(10, 157)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(74, 21)
-        Me.Label25.TabIndex = 20
-        Me.Label25.Text = "TENSIÓN"
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label26.Location = New System.Drawing.Point(39, 285)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(217, 21)
-        Me.Label26.TabIndex = 63
-        Me.Label26.Text = "BOMBAS DOSIFICADORAS"
-        '
-        'Panel7
-        '
-        Me.Panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel7.Controls.Add(Me.TextBox21)
-        Me.Panel7.Controls.Add(Me.TextBox22)
-        Me.Panel7.Controls.Add(Me.Label15)
-        Me.Panel7.Controls.Add(Me.Label14)
-        Me.Panel7.Controls.Add(Me.TextBox23)
-        Me.Panel7.Controls.Add(Me.TextBox24)
-        Me.Panel7.Location = New System.Drawing.Point(443, 338)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(361, 117)
-        Me.Panel7.TabIndex = 64
-        '
-        'FormElectricoCaldAut
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(1264, 749)
-        Me.Controls.Add(Me.Label26)
-        Me.Controls.Add(Me.Panel7)
-        Me.Controls.Add(Me.Label22)
-        Me.Controls.Add(Me.Panel6)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Panel4)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Panel3)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.Label39)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Label38)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Label37)
-        Me.Controls.Add(Me.Label36)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label35)
-        Me.Controls.Add(Me.Label34)
-        Me.Controls.Add(Me.TextBox35)
-        Me.Controls.Add(Me.TextBox34)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Label1)
-        Me.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "FormElectricoCaldAut"
-        Me.Text = "CALDERA AUTOCLAVE"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel4.PerformLayout()
-        Me.Panel6.ResumeLayout(False)
-        Me.Panel6.PerformLayout()
-        Me.Panel7.ResumeLayout(False)
-        Me.Panel7.PerformLayout()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        Label1 = New Label()
+        Panel1 = New Panel()
+        TextBox4 = New TextBox()
+        TextBox3 = New TextBox()
+        TextBox2 = New TextBox()
+        TextBox1 = New TextBox()
+        Label9 = New Label()
+        Label8 = New Label()
+        TextBox5 = New TextBox()
+        TextBox6 = New TextBox()
+        Label2 = New Label()
+        TextBox35 = New TextBox()
+        TextBox36 = New TextBox()
+        Label34 = New Label()
+        Label35 = New Label()
+        Button1 = New Button()
+        Button2 = New Button()
+        Button3 = New Button()
+        Label36 = New Label()
+        Label37 = New Label()
+        Button4 = New Button()
+        Label38 = New Label()
+        Label39 = New Label()
+        Button5 = New Button()
+        Label3 = New Label()
+        Panel2 = New Panel()
+        Label10 = New Label()
+        TextBox10 = New TextBox()
+        TextBox9 = New TextBox()
+        TextBox8 = New TextBox()
+        TextBox7 = New TextBox()
+        Label5 = New Label()
+        Label6 = New Label()
+        Label7 = New Label()
+        Panel3 = New Panel()
+        TextBox14 = New TextBox()
+        TextBox13 = New TextBox()
+        TextBox12 = New TextBox()
+        TextBox11 = New TextBox()
+        Label12 = New Label()
+        Label13 = New Label()
+        Label4 = New Label()
+        Panel4 = New Panel()
+        TextBox19 = New TextBox()
+        Label27 = New Label()
+        TextBox20 = New TextBox()
+        TextBox18 = New TextBox()
+        Label28 = New Label()
+        TextBox17 = New TextBox()
+        Label24 = New Label()
+        TextBox16 = New TextBox()
+        TextBox15 = New TextBox()
+        Label14 = New Label()
+        Label15 = New Label()
+        TextBox30 = New TextBox()
+        TextBox29 = New TextBox()
+        TextBox32 = New TextBox()
+        TextBox31 = New TextBox()
+        TextBox27 = New TextBox()
+        TextBox28 = New TextBox()
+        TextBox25 = New TextBox()
+        TextBox26 = New TextBox()
+        Label16 = New Label()
+        TextBox23 = New TextBox()
+        TextBox24 = New TextBox()
+        Label17 = New Label()
+        Label18 = New Label()
+        TextBox22 = New TextBox()
+        TextBox21 = New TextBox()
+        Label22 = New Label()
+        Panel6 = New Panel()
+        Label23 = New Label()
+        TextBox33 = New TextBox()
+        Label25 = New Label()
+        Label26 = New Label()
+        Panel7 = New Panel()
+        TextBox34 = New TextBox()
+        Label49 = New Label()
+        Panel1.SuspendLayout()
+        Panel2.SuspendLayout()
+        Panel3.SuspendLayout()
+        Panel4.SuspendLayout()
+        Panel6.SuspendLayout()
+        Panel7.SuspendLayout()
+        SuspendLayout()
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI Symbol", 18F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Location = New Point(485, 28)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(400, 32)
+        Label1.TabIndex = 0
+        Label1.Text = "ELÉCTRICO CALDERA AUTOCLAVE"
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackgroundImageLayout = ImageLayout.Center
+        Panel1.BorderStyle = BorderStyle.Fixed3D
+        Panel1.Controls.Add(TextBox4)
+        Panel1.Controls.Add(TextBox3)
+        Panel1.Controls.Add(TextBox2)
+        Panel1.Controls.Add(TextBox1)
+        Panel1.Controls.Add(Label9)
+        Panel1.Controls.Add(Label8)
+        Panel1.Location = New Point(39, 162)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(361, 104)
+        Panel1.TabIndex = 2
+        ' 
+        ' TextBox4
+        ' 
+        TextBox4.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox4.Location = New Point(254, 54)
+        TextBox4.Name = "TextBox4"
+        TextBox4.PlaceholderText = "Temperatura"
+        TextBox4.Size = New Size(75, 29)
+        TextBox4.TabIndex = 19
+        ' 
+        ' TextBox3
+        ' 
+        TextBox3.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox3.Location = New Point(173, 54)
+        TextBox3.Name = "TextBox3"
+        TextBox3.PlaceholderText = "Corriente"
+        TextBox3.Size = New Size(75, 29)
+        TextBox3.TabIndex = 18
+        ' 
+        ' TextBox2
+        ' 
+        TextBox2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox2.Location = New Point(254, 20)
+        TextBox2.Name = "TextBox2"
+        TextBox2.PlaceholderText = "Temperatura"
+        TextBox2.Size = New Size(75, 29)
+        TextBox2.TabIndex = 17
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox1.Location = New Point(173, 20)
+        TextBox1.Name = "TextBox1"
+        TextBox1.PlaceholderText = "Corriente"
+        TextBox1.Size = New Size(75, 29)
+        TextBox1.TabIndex = 16
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label9.Location = New Point(8, 57)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(85, 21)
+        Label9.TabIndex = 14
+        Label9.Text = "INDUCIDO"
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label8.Location = New Point(8, 18)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(81, 21)
+        Label8.TabIndex = 13
+        Label8.Text = "FORZADO"
+        ' 
+        ' TextBox5
+        ' 
+        TextBox5.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox5.Location = New Point(173, 20)
+        TextBox5.Name = "TextBox5"
+        TextBox5.PlaceholderText = "Corriente"
+        TextBox5.Size = New Size(75, 29)
+        TextBox5.TabIndex = 20
+        ' 
+        ' TextBox6
+        ' 
+        TextBox6.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox6.Location = New Point(254, 20)
+        TextBox6.Name = "TextBox6"
+        TextBox6.PlaceholderText = "Temperatura"
+        TextBox6.Size = New Size(75, 29)
+        TextBox6.TabIndex = 21
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI Symbol", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Location = New Point(39, 144)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(132, 21)
+        Label2.TabIndex = 0
+        Label2.Text = "VENTILADORES"
+        ' 
+        ' TextBox35
+        ' 
+        TextBox35.Enabled = False
+        TextBox35.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox35.Location = New Point(175, 54)
+        TextBox35.Name = "TextBox35"
+        TextBox35.Size = New Size(97, 29)
+        TextBox35.TabIndex = 41
+        ' 
+        ' TextBox36
+        ' 
+        TextBox36.Enabled = False
+        TextBox36.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox36.Location = New Point(278, 54)
+        TextBox36.Name = "TextBox36"
+        TextBox36.Size = New Size(100, 29)
+        TextBox36.TabIndex = 42
+        ' 
+        ' Label34
+        ' 
+        Label34.AutoSize = True
+        Label34.Font = New Font("Segoe UI Symbol", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label34.Location = New Point(175, 32)
+        Label34.Name = "Label34"
+        Label34.Size = New Size(55, 21)
+        Label34.TabIndex = 37
+        Label34.Text = "Fecha"
+        ' 
+        ' Label35
+        ' 
+        Label35.AutoSize = True
+        Label35.Font = New Font("Segoe UI Symbol", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label35.Location = New Point(278, 32)
+        Label35.Name = "Label35"
+        Label35.Size = New Size(48, 21)
+        Label35.TabIndex = 43
+        Label35.Text = "Hora"
+        ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.Transparent
+        Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), Image)
+        Button1.BackgroundImageLayout = ImageLayout.Zoom
+        Button1.ForeColor = Color.Transparent
+        Button1.Location = New Point(1127, 572)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(81, 79)
+        Button1.TabIndex = 44
+        Button1.UseVisualStyleBackColor = False
+        ' 
+        ' Button2
+        ' 
+        Button2.BackColor = Color.Transparent
+        Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), Image)
+        Button2.BackgroundImageLayout = ImageLayout.Stretch
+        Button2.Cursor = Cursors.Hand
+        Button2.ForeColor = Color.Transparent
+        Button2.Location = New Point(30, 19)
+        Button2.Name = "Button2"
+        Button2.RightToLeft = RightToLeft.No
+        Button2.Size = New Size(107, 65)
+        Button2.TabIndex = 45
+        Button2.TextImageRelation = TextImageRelation.ImageAboveText
+        Button2.UseVisualStyleBackColor = False
+        ' 
+        ' Button3
+        ' 
+        Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), Image)
+        Button3.BackgroundImageLayout = ImageLayout.Zoom
+        Button3.Cursor = Cursors.Hand
+        Button3.Location = New Point(1146, 27)
+        Button3.Name = "Button3"
+        Button3.Size = New Size(58, 48)
+        Button3.TabIndex = 46
+        Button3.UseVisualStyleBackColor = True
+        ' 
+        ' Label36
+        ' 
+        Label36.AutoSize = True
+        Label36.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
+        Label36.Location = New Point(1146, 78)
+        Label36.Name = "Label36"
+        Label36.Size = New Size(69, 17)
+        Label36.TabIndex = 47
+        Label36.Text = "RELLENAR"
+        ' 
+        ' Label37
+        ' 
+        Label37.AutoSize = True
+        Label37.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
+        Label37.Location = New Point(1140, 654)
+        Label37.Name = "Label37"
+        Label37.Size = New Size(68, 17)
+        Label37.TabIndex = 48
+        Label37.Text = "INSERTAR"
+        ' 
+        ' Button4
+        ' 
+        Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), Image)
+        Button4.BackgroundImageLayout = ImageLayout.Zoom
+        Button4.Location = New Point(1063, 27)
+        Button4.Name = "Button4"
+        Button4.Size = New Size(58, 48)
+        Button4.TabIndex = 49
+        Button4.UseVisualStyleBackColor = True
+        ' 
+        ' Label38
+        ' 
+        Label38.AutoSize = True
+        Label38.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
+        Label38.Location = New Point(1061, 78)
+        Label38.Name = "Label38"
+        Label38.Size = New Size(53, 17)
+        Label38.TabIndex = 50
+        Label38.Text = "EDITAR"
+        ' 
+        ' Label39
+        ' 
+        Label39.AutoSize = True
+        Label39.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
+        Label39.Location = New Point(977, 78)
+        Label39.Name = "Label39"
+        Label39.Size = New Size(70, 17)
+        Label39.TabIndex = 52
+        Label39.Text = "GUARDAR"
+        ' 
+        ' Button5
+        ' 
+        Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), Image)
+        Button5.BackgroundImageLayout = ImageLayout.Zoom
+        Button5.Location = New Point(977, 27)
+        Button5.Name = "Button5"
+        Button5.Size = New Size(58, 48)
+        Button5.TabIndex = 51
+        Button5.UseVisualStyleBackColor = True
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI Symbol", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.Location = New Point(443, 144)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(154, 21)
+        Label3.TabIndex = 53
+        Label3.Text = "MOTORES BOMBA"
+        ' 
+        ' Panel2
+        ' 
+        Panel2.BackgroundImageLayout = ImageLayout.Center
+        Panel2.BorderStyle = BorderStyle.Fixed3D
+        Panel2.Controls.Add(Label10)
+        Panel2.Controls.Add(TextBox10)
+        Panel2.Controls.Add(TextBox5)
+        Panel2.Controls.Add(TextBox6)
+        Panel2.Controls.Add(TextBox9)
+        Panel2.Controls.Add(TextBox8)
+        Panel2.Controls.Add(TextBox7)
+        Panel2.Controls.Add(Label5)
+        Panel2.Controls.Add(Label6)
+        Panel2.Location = New Point(443, 162)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(361, 144)
+        Panel2.TabIndex = 54
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label10.Location = New Point(8, 92)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(155, 21)
+        Label10.TabIndex = 22
+        Label10.Text = "BOMBA SUMERGIBLE"
+        ' 
+        ' TextBox10
+        ' 
+        TextBox10.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox10.Location = New Point(254, 88)
+        TextBox10.Name = "TextBox10"
+        TextBox10.PlaceholderText = "Temperatura"
+        TextBox10.Size = New Size(75, 29)
+        TextBox10.TabIndex = 19
+        ' 
+        ' TextBox9
+        ' 
+        TextBox9.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox9.Location = New Point(173, 88)
+        TextBox9.Name = "TextBox9"
+        TextBox9.PlaceholderText = "Corriente"
+        TextBox9.Size = New Size(75, 29)
+        TextBox9.TabIndex = 18
+        ' 
+        ' TextBox8
+        ' 
+        TextBox8.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox8.Location = New Point(254, 54)
+        TextBox8.Name = "TextBox8"
+        TextBox8.PlaceholderText = "Temperatura"
+        TextBox8.Size = New Size(75, 29)
+        TextBox8.TabIndex = 17
+        ' 
+        ' TextBox7
+        ' 
+        TextBox7.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox7.Location = New Point(173, 54)
+        TextBox7.Name = "TextBox7"
+        TextBox7.PlaceholderText = "Corriente"
+        TextBox7.Size = New Size(75, 29)
+        TextBox7.TabIndex = 16
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label5.Location = New Point(8, 57)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(138, 21)
+        Label5.TabIndex = 14
+        Label5.Text = "MOTOR PQ. AGUA"
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label6.Location = New Point(8, 18)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(137, 21)
+        Label6.TabIndex = 13
+        Label6.Text = "MOTOR GR. AGUA"
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Segoe UI Symbol", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Location = New Point(847, 144)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(129, 21)
+        Label7.TabIndex = 55
+        Label7.Text = "CARRROS AUT."
+        ' 
+        ' Panel3
+        ' 
+        Panel3.BackgroundImageLayout = ImageLayout.Center
+        Panel3.BorderStyle = BorderStyle.Fixed3D
+        Panel3.Controls.Add(TextBox14)
+        Panel3.Controls.Add(TextBox13)
+        Panel3.Controls.Add(TextBox12)
+        Panel3.Controls.Add(TextBox11)
+        Panel3.Controls.Add(Label12)
+        Panel3.Controls.Add(Label13)
+        Panel3.Location = New Point(847, 162)
+        Panel3.Name = "Panel3"
+        Panel3.Size = New Size(361, 104)
+        Panel3.TabIndex = 56
+        ' 
+        ' TextBox14
+        ' 
+        TextBox14.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox14.Location = New Point(254, 54)
+        TextBox14.Name = "TextBox14"
+        TextBox14.PlaceholderText = "Temperatura"
+        TextBox14.Size = New Size(75, 29)
+        TextBox14.TabIndex = 19
+        ' 
+        ' TextBox13
+        ' 
+        TextBox13.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox13.Location = New Point(173, 54)
+        TextBox13.Name = "TextBox13"
+        TextBox13.PlaceholderText = "Corriente"
+        TextBox13.Size = New Size(75, 29)
+        TextBox13.TabIndex = 18
+        ' 
+        ' TextBox12
+        ' 
+        TextBox12.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox12.Location = New Point(254, 20)
+        TextBox12.Name = "TextBox12"
+        TextBox12.PlaceholderText = "Temperatura"
+        TextBox12.Size = New Size(75, 29)
+        TextBox12.TabIndex = 17
+        ' 
+        ' TextBox11
+        ' 
+        TextBox11.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox11.Location = New Point(173, 20)
+        TextBox11.Name = "TextBox11"
+        TextBox11.PlaceholderText = "Corriente"
+        TextBox11.Size = New Size(75, 29)
+        TextBox11.TabIndex = 16
+        ' 
+        ' Label12
+        ' 
+        Label12.AutoSize = True
+        Label12.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label12.Location = New Point(8, 57)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(109, 21)
+        Label12.TabIndex = 14
+        Label12.Text = "AUTOCLAVE 2"
+        ' 
+        ' Label13
+        ' 
+        Label13.AutoSize = True
+        Label13.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label13.Location = New Point(8, 18)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(109, 21)
+        Label13.TabIndex = 13
+        Label13.Text = "AUTOCLAVE 1"
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI Symbol", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label4.Location = New Point(443, 317)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(178, 21)
+        Label4.TabIndex = 57
+        Label4.Text = "BOMBAS TRANSBASE"
+        ' 
+        ' Panel4
+        ' 
+        Panel4.BackgroundImageLayout = ImageLayout.Center
+        Panel4.BorderStyle = BorderStyle.Fixed3D
+        Panel4.Controls.Add(TextBox19)
+        Panel4.Controls.Add(Label27)
+        Panel4.Controls.Add(TextBox20)
+        Panel4.Controls.Add(TextBox18)
+        Panel4.Controls.Add(Label28)
+        Panel4.Controls.Add(TextBox17)
+        Panel4.Controls.Add(Label24)
+        Panel4.Controls.Add(TextBox16)
+        Panel4.Controls.Add(TextBox15)
+        Panel4.Location = New Point(39, 298)
+        Panel4.Name = "Panel4"
+        Panel4.Size = New Size(361, 157)
+        Panel4.TabIndex = 58
+        ' 
+        ' TextBox19
+        ' 
+        TextBox19.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox19.Location = New Point(173, 95)
+        TextBox19.Name = "TextBox19"
+        TextBox19.PlaceholderText = "Corriente"
+        TextBox19.Size = New Size(75, 29)
+        TextBox19.TabIndex = 16
+        ' 
+        ' Label27
+        ' 
+        Label27.AutoSize = True
+        Label27.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label27.Location = New Point(8, 62)
+        Label27.Name = "Label27"
+        Label27.Size = New Size(132, 21)
+        Label27.TabIndex = 14
+        Label27.Text = "DOSIFICADORA 2"
+        ' 
+        ' TextBox20
+        ' 
+        TextBox20.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox20.Location = New Point(254, 95)
+        TextBox20.Name = "TextBox20"
+        TextBox20.PlaceholderText = "Temperatura"
+        TextBox20.Size = New Size(75, 29)
+        TextBox20.TabIndex = 17
+        ' 
+        ' TextBox18
+        ' 
+        TextBox18.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox18.Location = New Point(254, 54)
+        TextBox18.Name = "TextBox18"
+        TextBox18.PlaceholderText = "Temperatura"
+        TextBox18.Size = New Size(75, 29)
+        TextBox18.TabIndex = 19
+        ' 
+        ' Label28
+        ' 
+        Label28.AutoSize = True
+        Label28.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label28.Location = New Point(8, 23)
+        Label28.Name = "Label28"
+        Label28.Size = New Size(132, 21)
+        Label28.TabIndex = 13
+        Label28.Text = "DOSIFICADORA 1"
+        ' 
+        ' TextBox17
+        ' 
+        TextBox17.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox17.Location = New Point(173, 54)
+        TextBox17.Name = "TextBox17"
+        TextBox17.PlaceholderText = "Corriente"
+        TextBox17.Size = New Size(75, 29)
+        TextBox17.TabIndex = 18
+        ' 
+        ' Label24
+        ' 
+        Label24.AutoSize = True
+        Label24.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label24.Location = New Point(8, 98)
+        Label24.Name = "Label24"
+        Label24.Size = New Size(142, 21)
+        Label24.TabIndex = 13
+        Label24.Text = "BOMBA COMEDOR"
+        ' 
+        ' TextBox16
+        ' 
+        TextBox16.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox16.Location = New Point(254, 20)
+        TextBox16.Name = "TextBox16"
+        TextBox16.PlaceholderText = "Temperatura"
+        TextBox16.Size = New Size(75, 29)
+        TextBox16.TabIndex = 17
+        ' 
+        ' TextBox15
+        ' 
+        TextBox15.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox15.Location = New Point(173, 20)
+        TextBox15.Name = "TextBox15"
+        TextBox15.PlaceholderText = "Corriente"
+        TextBox15.Size = New Size(75, 29)
+        TextBox15.TabIndex = 16
+        ' 
+        ' Label14
+        ' 
+        Label14.AutoSize = True
+        Label14.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label14.Location = New Point(8, 57)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(105, 21)
+        Label14.TabIndex = 14
+        Label14.Text = "TRANSBASE 2"
+        ' 
+        ' Label15
+        ' 
+        Label15.AutoSize = True
+        Label15.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label15.Location = New Point(8, 18)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(105, 21)
+        Label15.TabIndex = 13
+        Label15.Text = "TRANSBASE 1"
+        ' 
+        ' TextBox30
+        ' 
+        TextBox30.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox30.Location = New Point(254, 77)
+        TextBox30.Name = "TextBox30"
+        TextBox30.PlaceholderText = "Temperatura"
+        TextBox30.Size = New Size(75, 29)
+        TextBox30.TabIndex = 19
+        ' 
+        ' TextBox29
+        ' 
+        TextBox29.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox29.Location = New Point(173, 77)
+        TextBox29.Name = "TextBox29"
+        TextBox29.PlaceholderText = "Corriente"
+        TextBox29.Size = New Size(75, 29)
+        TextBox29.TabIndex = 18
+        ' 
+        ' TextBox32
+        ' 
+        TextBox32.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox32.Location = New Point(254, 114)
+        TextBox32.Name = "TextBox32"
+        TextBox32.PlaceholderText = "Temperatura"
+        TextBox32.Size = New Size(75, 29)
+        TextBox32.TabIndex = 17
+        ' 
+        ' TextBox31
+        ' 
+        TextBox31.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox31.Location = New Point(173, 114)
+        TextBox31.Name = "TextBox31"
+        TextBox31.PlaceholderText = "Corriente"
+        TextBox31.Size = New Size(75, 29)
+        TextBox31.TabIndex = 16
+        ' 
+        ' TextBox27
+        ' 
+        TextBox27.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox27.Location = New Point(173, 43)
+        TextBox27.Name = "TextBox27"
+        TextBox27.PlaceholderText = "Corriente"
+        TextBox27.Size = New Size(75, 29)
+        TextBox27.TabIndex = 26
+        ' 
+        ' TextBox28
+        ' 
+        TextBox28.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox28.Location = New Point(254, 43)
+        TextBox28.Name = "TextBox28"
+        TextBox28.PlaceholderText = "Temperatura"
+        TextBox28.Size = New Size(75, 29)
+        TextBox28.TabIndex = 27
+        ' 
+        ' TextBox25
+        ' 
+        TextBox25.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox25.Location = New Point(173, 9)
+        TextBox25.Name = "TextBox25"
+        TextBox25.PlaceholderText = "Corriente"
+        TextBox25.Size = New Size(75, 29)
+        TextBox25.TabIndex = 23
+        ' 
+        ' TextBox26
+        ' 
+        TextBox26.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox26.Location = New Point(254, 9)
+        TextBox26.Name = "TextBox26"
+        TextBox26.PlaceholderText = "Temperatura"
+        TextBox26.Size = New Size(75, 29)
+        TextBox26.TabIndex = 24
+        ' 
+        ' Label16
+        ' 
+        Label16.AutoSize = True
+        Label16.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label16.Location = New Point(8, 122)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(137, 21)
+        Label16.TabIndex = 20
+        Label16.Text = "TRANSPORTADOR"
+        ' 
+        ' TextBox23
+        ' 
+        TextBox23.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox23.Location = New Point(173, 54)
+        TextBox23.Name = "TextBox23"
+        TextBox23.PlaceholderText = "Corriente"
+        TextBox23.Size = New Size(75, 29)
+        TextBox23.TabIndex = 20
+        ' 
+        ' TextBox24
+        ' 
+        TextBox24.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox24.Location = New Point(254, 54)
+        TextBox24.Name = "TextBox24"
+        TextBox24.PlaceholderText = "Temperatura"
+        TextBox24.Size = New Size(75, 29)
+        TextBox24.TabIndex = 21
+        ' 
+        ' Label17
+        ' 
+        Label17.AutoSize = True
+        Label17.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label17.Location = New Point(9, 85)
+        Label17.Name = "Label17"
+        Label17.Size = New Size(75, 21)
+        Label17.TabIndex = 14
+        Label17.Text = "PARRILLA"
+        ' 
+        ' Label18
+        ' 
+        Label18.AutoSize = True
+        Label18.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label18.Location = New Point(9, 46)
+        Label18.Name = "Label18"
+        Label18.Size = New Size(151, 21)
+        Label18.TabIndex = 13
+        Label18.Text = "ELEVADOR CARBÓN"
+        ' 
+        ' TextBox22
+        ' 
+        TextBox22.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox22.Location = New Point(254, 12)
+        TextBox22.Name = "TextBox22"
+        TextBox22.PlaceholderText = "Temperatura"
+        TextBox22.Size = New Size(75, 29)
+        TextBox22.TabIndex = 19
+        ' 
+        ' TextBox21
+        ' 
+        TextBox21.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox21.Location = New Point(173, 12)
+        TextBox21.Name = "TextBox21"
+        TextBox21.PlaceholderText = "Corriente"
+        TextBox21.Size = New Size(75, 29)
+        TextBox21.TabIndex = 18
+        ' 
+        ' Label22
+        ' 
+        Label22.AutoSize = True
+        Label22.Font = New Font("Segoe UI Symbol", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label22.Location = New Point(847, 285)
+        Label22.Name = "Label22"
+        Label22.Size = New Size(66, 21)
+        Label22.TabIndex = 61
+        Label22.Text = "OTROS"
+        ' 
+        ' Panel6
+        ' 
+        Panel6.BackgroundImageLayout = ImageLayout.Center
+        Panel6.BorderStyle = BorderStyle.Fixed3D
+        Panel6.Controls.Add(TextBox32)
+        Panel6.Controls.Add(Label23)
+        Panel6.Controls.Add(TextBox33)
+        Panel6.Controls.Add(TextBox30)
+        Panel6.Controls.Add(Label18)
+        Panel6.Controls.Add(Label17)
+        Panel6.Controls.Add(TextBox31)
+        Panel6.Controls.Add(Label25)
+        Panel6.Controls.Add(TextBox27)
+        Panel6.Controls.Add(TextBox28)
+        Panel6.Controls.Add(TextBox29)
+        Panel6.Controls.Add(Label16)
+        Panel6.Controls.Add(TextBox26)
+        Panel6.Controls.Add(TextBox25)
+        Panel6.Location = New Point(847, 303)
+        Panel6.Name = "Panel6"
+        Panel6.Size = New Size(361, 202)
+        Panel6.TabIndex = 62
+        ' 
+        ' Label23
+        ' 
+        Label23.AutoSize = True
+        Label23.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label23.Location = New Point(8, 17)
+        Label23.Name = "Label23"
+        Label23.Size = New Size(85, 21)
+        Label23.TabIndex = 14
+        Label23.Text = "AGITADOR"
+        ' 
+        ' TextBox33
+        ' 
+        TextBox33.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox33.Location = New Point(172, 154)
+        TextBox33.MaxLength = 9
+        TextBox33.Name = "TextBox33"
+        TextBox33.Size = New Size(75, 29)
+        TextBox33.TabIndex = 21
+        ' 
+        ' Label25
+        ' 
+        Label25.AutoSize = True
+        Label25.Font = New Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point)
+        Label25.Location = New Point(10, 157)
+        Label25.Name = "Label25"
+        Label25.Size = New Size(74, 21)
+        Label25.TabIndex = 20
+        Label25.Text = "TENSIÓN"
+        ' 
+        ' Label26
+        ' 
+        Label26.AutoSize = True
+        Label26.Font = New Font("Segoe UI Symbol", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label26.Location = New Point(39, 285)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(217, 21)
+        Label26.TabIndex = 63
+        Label26.Text = "BOMBAS DOSIFICADORAS"
+        ' 
+        ' Panel7
+        ' 
+        Panel7.BackgroundImageLayout = ImageLayout.Center
+        Panel7.BorderStyle = BorderStyle.Fixed3D
+        Panel7.Controls.Add(TextBox21)
+        Panel7.Controls.Add(TextBox22)
+        Panel7.Controls.Add(Label15)
+        Panel7.Controls.Add(Label14)
+        Panel7.Controls.Add(TextBox23)
+        Panel7.Controls.Add(TextBox24)
+        Panel7.Location = New Point(443, 338)
+        Panel7.Name = "Panel7"
+        Panel7.Size = New Size(361, 117)
+        Panel7.TabIndex = 64
+        ' 
+        ' TextBox34
+        ' 
+        TextBox34.BorderStyle = BorderStyle.FixedSingle
+        TextBox34.Cursor = Cursors.Hand
+        TextBox34.Location = New Point(39, 611)
+        TextBox34.Multiline = True
+        TextBox34.Name = "TextBox34"
+        TextBox34.ScrollBars = ScrollBars.Vertical
+        TextBox34.Size = New Size(765, 109)
+        TextBox34.TabIndex = 70
+        ' 
+        ' Label49
+        ' 
+        Label49.AutoSize = True
+        Label49.Font = New Font("Segoe UI Symbol", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label49.Location = New Point(39, 587)
+        Label49.Name = "Label49"
+        Label49.Size = New Size(127, 21)
+        Label49.TabIndex = 69
+        Label49.Text = "OBSERVACIÓN"
+        ' 
+        ' FormElectricoCaldAut
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ButtonFace
+        BackgroundImageLayout = ImageLayout.None
+        ClientSize = New Size(1264, 749)
+        Controls.Add(TextBox34)
+        Controls.Add(Label26)
+        Controls.Add(Panel7)
+        Controls.Add(Label49)
+        Controls.Add(Label22)
+        Controls.Add(Panel6)
+        Controls.Add(Label4)
+        Controls.Add(Panel4)
+        Controls.Add(Label7)
+        Controls.Add(Panel3)
+        Controls.Add(Label3)
+        Controls.Add(Panel2)
+        Controls.Add(Label39)
+        Controls.Add(Button5)
+        Controls.Add(Label38)
+        Controls.Add(Button4)
+        Controls.Add(Label37)
+        Controls.Add(Label36)
+        Controls.Add(Button3)
+        Controls.Add(Button2)
+        Controls.Add(Button1)
+        Controls.Add(Label35)
+        Controls.Add(Label34)
+        Controls.Add(TextBox36)
+        Controls.Add(TextBox35)
+        Controls.Add(Label2)
+        Controls.Add(Panel1)
+        Controls.Add(Label1)
+        ForeColor = SystemColors.ControlText
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Name = "FormElectricoCaldAut"
+        Text = "CALDERA AUTOCLAVE"
+        Panel1.ResumeLayout(False)
+        Panel1.PerformLayout()
+        Panel2.ResumeLayout(False)
+        Panel2.PerformLayout()
+        Panel3.ResumeLayout(False)
+        Panel3.PerformLayout()
+        Panel4.ResumeLayout(False)
+        Panel4.PerformLayout()
+        Panel6.ResumeLayout(False)
+        Panel6.PerformLayout()
+        Panel7.ResumeLayout(False)
+        Panel7.PerformLayout()
+        ResumeLayout(False)
+        PerformLayout()
 
     End Sub
     Friend WithEvents Label1 As Label
@@ -948,8 +973,8 @@ Partial Class FormElectricoCaldAut
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox34 As TextBox
     Friend WithEvents TextBox35 As TextBox
+    Friend WithEvents TextBox36 As TextBox
     Friend WithEvents Label34 As Label
     Friend WithEvents Label35 As Label
     Friend WithEvents Button1 As Button
@@ -1013,4 +1038,6 @@ Partial Class FormElectricoCaldAut
     Friend WithEvents Label27 As Label
     Friend WithEvents Label28 As Label
     Friend WithEvents Label10 As Label
+    Friend WithEvents TextBox34 As TextBox
+    Friend WithEvents Label49 As Label
 End Class

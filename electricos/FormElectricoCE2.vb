@@ -29,15 +29,15 @@ Public Class FormElectricoCE2
         Me.WindowState = FormWindowState.Maximized ' Maximizar ventana
         Dim fechaActual As DateTime = DateTime.Now.Date
         Dim horaActual As TimeSpan = DateTime.Now.TimeOfDay
-        TextBox36.Text = fechaActual.ToString("yyyy-MM-dd")
-        TextBox37.Text = horaActual.ToString("hh\:mm\:ss")
+        TextBox37.Text = fechaActual.ToString("yyyy-MM-dd")
+        TextBox38.Text = horaActual.ToString("hh\:mm\:ss")
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Using conexion As New SqlConnection(conn)
             Try
                 conexion.Open()
-                Dim consulta As String = "INSERT INTO dbo.Electrico_CE2 VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35)"
+                Dim consulta As String = "INSERT INTO dbo.Electrico_CE2 VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36)"
                 Using comando As New SqlCommand(consulta, conexion)
                     ' Agregar parámetros
                     comando.Parameters.AddWithValue("@FECHA", DateTime.Now.Date)
@@ -77,6 +77,7 @@ Public Class FormElectricoCE2
                     comando.Parameters.AddWithValue("@VAR33", Convert.ToSingle(TextBox33.Text))
                     comando.Parameters.AddWithValue("@VAR34", Convert.ToSingle(TextBox34.Text))
                     comando.Parameters.AddWithValue("@VAR35", Convert.ToSingle(TextBox35.Text))
+                    comando.Parameters.AddWithValue("@VAR36", TextBox36.Text)
                     ' Ejecutar la consulta
                     comando.ExecuteNonQuery()
                     MessageBox.Show("Datos insertados correctamente.")

@@ -11,9 +11,9 @@ Public Class FormElectricoForm1
         Me.Hide()
     End Sub
 
-    Private Sub TextBox_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox1.KeyPress, TextBox2.KeyPress, TextBox3.KeyPress, TextBox4.KeyPress, TextBox5.KeyPress, TextBox6.KeyPress, TextBox7.KeyPress, TextBox8.KeyPress, TextBox9.KeyPress, TextBox10.KeyPress, TextBox10.KeyPress, TextBox10.KeyPress, TextBox11.KeyPress, TextBox12.KeyPress, TextBox13.KeyPress, TextBox14.KeyPress, TextBox15.KeyPress, TextBox16.KeyPress, TextBox17.KeyPress, TextBox18.KeyPress, TextBox19.KeyPress, TextBox20.KeyPress, TextBox21.KeyPress, TextBox22.KeyPress, TextBox23.KeyPress, TextBox24.KeyPress, TextBox25.KeyPress, TextBox26.KeyPress, TextBox27.KeyPress, TextBox28.KeyPress, TextBox29.KeyPress, TextBox30.KeyPress, TextBox31.KeyPress, TextBox32.KeyPress, TextBox33.KeyPress, TextBox34.KeyPress, TextBox35.KeyPress, TextBox36.KeyPress, TextBox37.KeyPress, TextBox38.KeyPress, TextBox39.KeyPress, TextBox40.KeyPress, TextBox41.KeyPress
+    Private Sub TextBox_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox1.KeyPress, TextBox2.KeyPress, TextBox3.KeyPress, TextBox4.KeyPress, TextBox5.KeyPress, TextBox6.KeyPress, TextBox7.KeyPress, TextBox8.KeyPress, TextBox9.KeyPress, TextBox10.KeyPress, TextBox10.KeyPress, TextBox10.KeyPress, TextBox11.KeyPress, TextBox12.KeyPress, TextBox13.KeyPress, TextBox14.KeyPress, TextBox15.KeyPress, TextBox16.KeyPress, TextBox17.KeyPress, TextBox18.KeyPress, TextBox19.KeyPress, TextBox20.KeyPress, TextBox21.KeyPress, TextBox22.KeyPress, TextBox23.KeyPress, TextBox24.KeyPress, TextBox25.KeyPress, TextBox26.KeyPress, TextBox27.KeyPress, TextBox28.KeyPress, TextBox29.KeyPress, TextBox30.KeyPress, TextBox31.KeyPress, TextBox32.KeyPress, TextBox33.KeyPress, TextBox34.KeyPress, TextBox35.KeyPress, TextBox36.KeyPress, TextBox37.KeyPress, TextBox38.KeyPress, TextBox39.KeyPress
         ' Verificar que el primer carácter sea un número
-        If (sender Is TextBox1 OrElse sender Is TextBox2) AndAlso Char.IsDigit(e.KeyChar) AndAlso (TryCast(sender, TextBox).Text.Length = 0) Then
+        If (sender Is TextBox1 OrElse sender Is TextBox2) AndAlso Char.IsDigit(e.KeyChar) AndAlso TryCast(sender, TextBox).Text.Length = 0 Then
             ' Primer carácter y es un número
         ElseIf Not Char.IsDigit(e.KeyChar) AndAlso e.KeyChar <> ControlChars.Back AndAlso e.KeyChar <> "," Then
             e.Handled = True ' Ignorar la tecla presionada
@@ -29,15 +29,15 @@ Public Class FormElectricoForm1
         Me.WindowState = FormWindowState.Maximized ' Maximizar ventana
         Dim fechaActual As DateTime = DateTime.Now.Date
         Dim horaActual As TimeSpan = DateTime.Now.TimeOfDay
-        TextBox42.Text = fechaActual.ToString("yyyy-MM-dd")
-        TextBox43.Text = horaActual.ToString("hh\:mm\:ss")
+        TextBox41.Text = fechaActual.ToString("yyyy-MM-dd")
+        TextBox42.Text = horaActual.ToString("hh\:mm\:ss")
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Using conexion As New SqlConnection(conn)
             Try
                 conexion.Open()
-                Dim consulta As String = "INSERT INTO dbo.Electrico_Form1 VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41)"
+                Dim consulta As String = "INSERT INTO dbo.Electrico_Form1 VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40)"
                 Using comando As New SqlCommand(consulta, conexion)
                     ' Agregar parámetros
                     comando.Parameters.AddWithValue("@FECHA", DateTime.Now.Date)
@@ -81,8 +81,7 @@ Public Class FormElectricoForm1
                     comando.Parameters.AddWithValue("@VAR37", Convert.ToSingle(TextBox37.Text))
                     comando.Parameters.AddWithValue("@VAR38", Convert.ToSingle(TextBox38.Text))
                     comando.Parameters.AddWithValue("@VAR39", Convert.ToSingle(TextBox39.Text))
-                    comando.Parameters.AddWithValue("@VAR40", Convert.ToSingle(TextBox40.Text))
-                    comando.Parameters.AddWithValue("@VAR41", Convert.ToSingle(TextBox41.Text))
+                    comando.Parameters.AddWithValue("@VAR40", TextBox40.Text)
                     ' Ejecutar la consulta
                     comando.ExecuteNonQuery()
                     MessageBox.Show("Datos insertados correctamente.")
@@ -166,15 +165,15 @@ Public Class FormElectricoForm1
         End If
     End Sub
 
-    Private Sub TextBox1_GotFocus(sender As Object, e As EventArgs) Handles TextBox1.GotFocus, TextBox2.GotFocus, TextBox3.GotFocus, TextBox4.GotFocus, TextBox5.GotFocus, TextBox6.GotFocus, TextBox7.GotFocus, TextBox8.GotFocus, TextBox9.GotFocus, TextBox10.GotFocus, TextBox10.GotFocus, TextBox10.GotFocus, TextBox11.GotFocus, TextBox12.GotFocus, TextBox13.GotFocus, TextBox14.GotFocus, TextBox15.GotFocus, TextBox16.GotFocus, TextBox17.GotFocus, TextBox18.GotFocus, TextBox19.GotFocus, TextBox20.GotFocus, TextBox21.GotFocus, TextBox22.GotFocus, TextBox23.GotFocus, TextBox24.GotFocus, TextBox25.GotFocus, TextBox26.GotFocus, TextBox27.GotFocus, TextBox28.GotFocus, TextBox29.GotFocus, TextBox30.GotFocus, TextBox31.GotFocus, TextBox32.GotFocus, TextBox33.GotFocus, TextBox34.GotFocus, TextBox35.GotFocus, TextBox36.GotFocus, TextBox37.GotFocus, TextBox38.GotFocus, TextBox39.GotFocus, TextBox40.GotFocus, TextBox41.GotFocus
+    Private Sub TextBox1_GotFocus(sender As Object, e As EventArgs) Handles TextBox1.GotFocus, TextBox2.GotFocus, TextBox3.GotFocus, TextBox4.GotFocus, TextBox5.GotFocus, TextBox6.GotFocus, TextBox7.GotFocus, TextBox8.GotFocus, TextBox9.GotFocus, TextBox10.GotFocus, TextBox10.GotFocus, TextBox10.GotFocus, TextBox11.GotFocus, TextBox12.GotFocus, TextBox13.GotFocus, TextBox14.GotFocus, TextBox15.GotFocus, TextBox16.GotFocus, TextBox17.GotFocus, TextBox18.GotFocus, TextBox19.GotFocus, TextBox20.GotFocus, TextBox21.GotFocus, TextBox22.GotFocus, TextBox23.GotFocus, TextBox24.GotFocus, TextBox25.GotFocus, TextBox26.GotFocus, TextBox27.GotFocus, TextBox28.GotFocus, TextBox29.GotFocus, TextBox30.GotFocus, TextBox31.GotFocus, TextBox32.GotFocus, TextBox33.GotFocus, TextBox34.GotFocus, TextBox35.GotFocus, TextBox36.GotFocus, TextBox37.GotFocus, TextBox38.GotFocus, TextBox39.GotFocus, TextBox39.GotFocus
         ' Obtén el TextBox que ha recibido el foco
-        Dim textBoxSeleccionado As TextBox = DirectCast(sender, TextBox)
+        Dim textBoxSeleccionado = DirectCast(sender, TextBox)
         textBoxSeleccionado.Text = ""
     End Sub
 
-    Private Sub TextBox1_LostFocus(sender As Object, e As EventArgs) Handles TextBox1.LostFocus, TextBox2.LostFocus, TextBox3.LostFocus, TextBox4.LostFocus, TextBox5.LostFocus, TextBox6.LostFocus, TextBox7.LostFocus, TextBox8.LostFocus, TextBox9.LostFocus, TextBox10.LostFocus, TextBox10.LostFocus, TextBox10.LostFocus, TextBox11.LostFocus, TextBox12.LostFocus, TextBox13.LostFocus, TextBox14.LostFocus, TextBox15.LostFocus, TextBox16.LostFocus, TextBox17.LostFocus, TextBox18.LostFocus, TextBox19.LostFocus, TextBox20.LostFocus, TextBox21.LostFocus, TextBox22.LostFocus, TextBox23.LostFocus, TextBox24.LostFocus, TextBox25.LostFocus, TextBox26.LostFocus, TextBox27.LostFocus, TextBox28.LostFocus, TextBox29.LostFocus, TextBox30.LostFocus, TextBox31.LostFocus, TextBox32.LostFocus, TextBox33.LostFocus, TextBox34.LostFocus, TextBox35.LostFocus, TextBox36.LostFocus, TextBox37.LostFocus, TextBox38.LostFocus, TextBox39.LostFocus, TextBox40.LostFocus, TextBox41.LostFocus
+    Private Sub TextBox1_LostFocus(sender As Object, e As EventArgs) Handles TextBox1.LostFocus, TextBox2.LostFocus, TextBox3.LostFocus, TextBox4.LostFocus, TextBox5.LostFocus, TextBox6.LostFocus, TextBox7.LostFocus, TextBox8.LostFocus, TextBox9.LostFocus, TextBox10.LostFocus, TextBox10.LostFocus, TextBox10.LostFocus, TextBox11.LostFocus, TextBox12.LostFocus, TextBox13.LostFocus, TextBox14.LostFocus, TextBox15.LostFocus, TextBox16.LostFocus, TextBox17.LostFocus, TextBox18.LostFocus, TextBox19.LostFocus, TextBox20.LostFocus, TextBox21.LostFocus, TextBox22.LostFocus, TextBox23.LostFocus, TextBox24.LostFocus, TextBox25.LostFocus, TextBox26.LostFocus, TextBox27.LostFocus, TextBox28.LostFocus, TextBox29.LostFocus, TextBox30.LostFocus, TextBox31.LostFocus, TextBox32.LostFocus, TextBox33.LostFocus, TextBox34.LostFocus, TextBox35.LostFocus, TextBox36.LostFocus, TextBox37.LostFocus, TextBox38.LostFocus, TextBox39.LostFocus, TextBox39.LostFocus
         ' Obtén el TextBox que ha recibido el foco
-        Dim textBoxSeleccionado As TextBox = DirectCast(sender, TextBox)
+        Dim textBoxSeleccionado = DirectCast(sender, TextBox)
         If textBoxSeleccionado.Text = "" Then
             textBoxSeleccionado.Text = "0,01"
         ElseIf textBoxSeleccionado.Text <> "0,01" Then
@@ -301,12 +300,6 @@ Public Class FormElectricoForm1
         If TextBox39.Text = "" Then
             TextBox39.Text = "0,01"
         End If
-        If TextBox40.Text = "" Then
-            TextBox40.Text = "0,01"
-        End If
-        If TextBox41.Text = "" Then
-            TextBox41.Text = "0,01"
-        End If
 
 
     End Sub
@@ -351,8 +344,6 @@ Public Class FormElectricoForm1
         TextBox37.Enabled = True
         TextBox38.Enabled = True
         TextBox39.Enabled = True
-        TextBox40.Enabled = True
-        TextBox41.Enabled = True
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
@@ -472,12 +463,6 @@ Public Class FormElectricoForm1
         End If
         If TextBox39.Text <> "" Then
             TextBox39.Enabled = False
-        End If
-        If TextBox40.Text <> "" Then
-            TextBox40.Enabled = False
-        End If
-        If TextBox41.Text <> "" Then
-            TextBox41.Enabled = False
         End If
     End Sub
 

@@ -11,7 +11,7 @@ Public Class FormElectricoPteGrua
         Me.Hide()
     End Sub
 
-    Private Sub TextBox_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox1.KeyPress, TextBox2.KeyPress, TextBox3.KeyPress, TextBox4.KeyPress, TextBox5.KeyPress, TextBox6.KeyPress, TextBox7.KeyPress, TextBox8.KeyPress, TextBox9.KeyPress, TextBox10.KeyPress, TextBox10.KeyPress, TextBox10.KeyPress, TextBox11.KeyPress
+    Private Sub TextBox_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox1.KeyPress, TextBox2.KeyPress, TextBox3.KeyPress, TextBox4.KeyPress, TextBox5.KeyPress, TextBox6.KeyPress, TextBox7.KeyPress, TextBox8.KeyPress, TextBox9.KeyPress, TextBox10.KeyPress, TextBox11.KeyPress
         ' Verificar que el primer carácter sea un número
         If (sender Is TextBox1 OrElse sender Is TextBox2) AndAlso Char.IsDigit(e.KeyChar) AndAlso (TryCast(sender, TextBox).Text.Length = 0) Then
             ' Primer carácter y es un número
@@ -29,15 +29,15 @@ Public Class FormElectricoPteGrua
         Me.WindowState = FormWindowState.Maximized ' Maximizar ventana
         Dim fechaActual As DateTime = DateTime.Now.Date
         Dim horaActual As TimeSpan = DateTime.Now.TimeOfDay
-        TextBox12.Text = fechaActual.ToString("yyyy-MM-dd")
-        TextBox13.Text = horaActual.ToString("hh\:mm\:ss")
+        TextBox13.Text = fechaActual.ToString("yyyy-MM-dd")
+        TextBox14.Text = horaActual.ToString("hh\:mm\:ss")
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Using conexion As New SqlConnection(conn)
             Try
                 conexion.Open()
-                Dim consulta As String = "INSERT INTO dbo.Electrico_Pte_Grua VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11)"
+                Dim consulta As String = "INSERT INTO dbo.Electrico_Pte_Grua VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12)"
                 Using comando As New SqlCommand(consulta, conexion)
                     ' Agregar parámetros
                     comando.Parameters.AddWithValue("@FECHA", DateTime.Now.Date)
@@ -53,6 +53,7 @@ Public Class FormElectricoPteGrua
                     comando.Parameters.AddWithValue("@VAR9", Convert.ToSingle(TextBox9.Text))
                     comando.Parameters.AddWithValue("@VAR10", Convert.ToSingle(TextBox10.Text))
                     comando.Parameters.AddWithValue("@VAR11", Convert.ToSingle(TextBox11.Text))
+                    comando.Parameters.AddWithValue("@VAR12", TextBox12.Text)
                     comando.ExecuteNonQuery()
                     MessageBox.Show("Datos insertados correctamente.")
                 End Using

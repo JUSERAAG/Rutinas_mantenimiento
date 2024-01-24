@@ -82,7 +82,7 @@ Public Class FormMecanicoNT
                     comando.Parameters.AddWithValue("@VAR49", If(CheckBox49.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR50", If(CheckBox50.Checked, 1, 0))
                     comando.Parameters.AddWithValue("@VAR51", If(CheckBox51.Checked, 1, 0))
-                    comando.Parameters.AddWithValue("@VAR59", TextBox1.Text)
+                    comando.Parameters.AddWithValue("@VAR52", TextBox1.Text)
                     ' ejecutar la consulta
                     comando.ExecuteNonQuery()
                     MessageBox.Show("datos insertados correctamente.")

@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Rutinas_mantenimiento"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Release"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79cd414900e713ba266d14d8e34c09be6bed922f"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Rutinas_mantenimiento"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Rutinas_mantenimiento"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

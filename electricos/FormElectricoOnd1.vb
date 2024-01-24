@@ -29,15 +29,15 @@ Public Class FormElectricoOnd1
         Me.WindowState = FormWindowState.Maximized ' Maximizar ventana
         Dim fechaActual As DateTime = DateTime.Now.Date
         Dim horaActual As TimeSpan = DateTime.Now.TimeOfDay
-        TextBox42.Text = fechaActual.ToString("yyyy-MM-dd")
-        TextBox43.Text = horaActual.ToString("hh\:mm\:ss")
+        TextBox43.Text = fechaActual.ToString("yyyy-MM-dd")
+        TextBox44.Text = horaActual.ToString("hh\:mm\:ss")
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Using conexion As New SqlConnection(conn)
             Try
                 conexion.Open()
-                Dim consulta As String = "INSERT INTO dbo.Electrico_Ond1 VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41)"
+                Dim consulta As String = "INSERT INTO dbo.Electrico_Ond1 VALUES (@FECHA,@HORA,@VAR1,@VAR2,@VAR3,@VAR4,@VAR5,@VAR6,@VAR7,@VAR8,@VAR9,@VAR10,@VAR11,@VAR12,@VAR13,@VAR14,@VAR15,@VAR16,@VAR17,@VAR18,@VAR19,@VAR20,@VAR21,@VAR22,@VAR23,@VAR24,@VAR25,@VAR26,@VAR27,@VAR28,@VAR29,@VAR30,@VAR31,@VAR32,@VAR33,@VAR34,@VAR35,@VAR36,@VAR37,@VAR38,@VAR39,@VAR40,@VAR41,@VAR42)"
                 Using comando As New SqlCommand(consulta, conexion)
                     ' Agregar parámetros
                     comando.Parameters.AddWithValue("@FECHA", DateTime.Now.Date)
@@ -83,6 +83,7 @@ Public Class FormElectricoOnd1
                     comando.Parameters.AddWithValue("@VAR39", Convert.ToSingle(TextBox41.Text))
                     comando.Parameters.AddWithValue("@VAR40", Convert.ToSingle(TextBox40.Text))
                     comando.Parameters.AddWithValue("@VAR41", Convert.ToSingle(TextBox41.Text))
+                    comando.Parameters.AddWithValue("@VAR42", TextBox42.Text)
                     ' Ejecutar la consulta
                     comando.ExecuteNonQuery()
                     MessageBox.Show("Datos insertados correctamente.")
@@ -157,9 +158,9 @@ Public Class FormElectricoOnd1
         End If
     End Sub
 
-    Private Sub TextBox1_GotFocus(sender As Object, e As EventArgs) Handles TextBox1.GotFocus, TextBox2.GotFocus, TextBox3.GotFocus, TextBox4.GotFocus, TextBox5.GotFocus, TextBox6.GotFocus, TextBox7.GotFocus, TextBox8.GotFocus, TextBox9.GotFocus, TextBox10.GotFocus, TextBox10.GotFocus, TextBox10.GotFocus, TextBox11.GotFocus, TextBox12.GotFocus, TextBox13.GotFocus, TextBox14.GotFocus, TextBox15.GotFocus, TextBox16.GotFocus, TextBox17.GotFocus, TextBox18.GotFocus, TextBox19.GotFocus, TextBox20.GotFocus, TextBox21.GotFocus, TextBox22.GotFocus, TextBox23.GotFocus, TextBox24.GotFocus, TextBox25.GotFocus, TextBox26.GotFocus, TextBox27.GotFocus, TextBox28.GotFocus, TextBox29.GotFocus, TextBox30.GotFocus, TextBox31.GotFocus, TextBox32.GotFocus, TextBox33.GotFocus, TextBox34.GotFocus, TextBox35.GotFocus, TextBox36.GotFocus, TextBox37.GotFocus, TextBox38.GotFocus, TextBox39.GotFocus, TextBox40.GotFocus, TextBox41.GotFocus
+    Private Sub TextBox1_GotFocus(sender As Object, e As EventArgs) Handles TextBox1.GotFocus, TextBox2.GotFocus, TextBox3.GotFocus, TextBox4.GotFocus, TextBox5.GotFocus, TextBox6.GotFocus, TextBox7.GotFocus, TextBox8.GotFocus, TextBox9.GotFocus, TextBox10.GotFocus, TextBox10.GotFocus, TextBox10.GotFocus, TextBox11.GotFocus, TextBox12.GotFocus, TextBox13.GotFocus, TextBox14.GotFocus, TextBox15.GotFocus, TextBox16.GotFocus, TextBox17.GotFocus, TextBox18.GotFocus, TextBox19.GotFocus, TextBox20.GotFocus, TextBox21.GotFocus, TextBox22.GotFocus, TextBox23.GotFocus, TextBox24.GotFocus, TextBox25.GotFocus, TextBox26.GotFocus, TextBox27.GotFocus, TextBox28.GotFocus, TextBox29.GotFocus, TextBox30.GotFocus, TextBox31.GotFocus, TextBox32.GotFocus, TextBox33.GotFocus, TextBox34.GotFocus, TextBox35.GotFocus, TextBox36.GotFocus, TextBox37.GotFocus, TextBox38.GotFocus, TextBox40.GotFocus, TextBox41.GotFocus
         ' Obtén el TextBox que ha recibido el foco
-        Dim textBoxSeleccionado As TextBox = DirectCast(sender, TextBox)
+        Dim textBoxSeleccionado = DirectCast(sender, TextBox)
         textBoxSeleccionado.Text = ""
     End Sub
 
